@@ -1,0 +1,18 @@
+{
+  "ResultState": true,
+  "ProcesoId": 18,
+  "NumFactura": "FV2992",
+  "CodigoUnicoValidacion": "No aplica a paquetes procesados en estado [RECHAZADO] o validaciones realizadas antes del envío al Ministerio de Salud y Protección Social",
+  "FechaRadicacion": "2025-04-27T01:56:47.7451239-05:00",
+  "RutaArchivos": null,
+  "ResultadosValidacion": [
+    {
+      "Clase": "NOTIFICACION",
+      "Codigo": "RVC020",
+      "Descripcion": "El código de CUPS puede corresponder a una cobertura de procedimiento.",
+      "Observaciones": "El código CUPS [890246] no es valido o no corresponde a un procedimiento, por favor verificar tabla de referencia.",
+      "PathFuente": "usuarios[0].servicios.procedimientos[0].codProcedimiento",
+      "Fuente": "Rips"
+    }
+  ]
+}

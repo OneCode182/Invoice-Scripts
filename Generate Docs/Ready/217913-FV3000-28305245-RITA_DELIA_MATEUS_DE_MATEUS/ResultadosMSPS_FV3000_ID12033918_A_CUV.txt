@@ -1,0 +1,9 @@
+{
+  "ResultState": true,
+  "ProcesoId": 12033918,
+  "NumFactura": "FV3000",
+  "CodigoUnicoValidacion": "b7aebfd3117b6bc1422188b56c16b5d02cbff29f7afed07e1f9c48e9b61f0082b96f05231aafa5477c732efa69910fc4",
+  "FechaRadicacion": "2025-04-27T01:35:10.256481-05:00",
+  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\217913-FV3000-28305245-RITA_DELIA_MATEUS_DE_MATEUS",
+  "ResultadosValidacion": []
+}

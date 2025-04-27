@@ -1,0 +1,233 @@
+
+
+
+
+****** CREDENCIALES ******
+1013587012
+Pinilla2025*
+901756076
+
+
+****** ARCHIVO XML ******
+
+1) Insertar bloque después de CODIGO PRESTADOR   
+LINEA 100
+
+<AdditionalInformation>
+   <Name>CODIGO_PRESTADOR</Name>
+   <Value>1100140515</Value>
+</AdditionalInformation>
+
+PEGAR BLOQUE DE CODIGO ->
+   <AdditionalInformation>
+      <Name>MODALIDAD_PAGO</Name>
+      <Value schemeID="04" schemeName="salud_modalidad_pago.gc">Pago por evento</Value>
+   </AdditionalInformation>
+   <AdditionalInformation>
+      <Name>COBERTURA_PLAN_BENEFICIOS</Name>
+      <Value schemeID="15" schemeName="salud_cobertura.gc">Particular</Value>    
+   </AdditionalInformation>
+
+
+2) Insertar Inmediatamente después de Line Count Numeric
+LINEA 139 
+
+<cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+
+
+Bloque: 
+ <cac:InvoicePeriod>
+    <cbc:StartDate>DATE</cbc:StartDate>
+    <cbc:StartTime>12:00:00</cbc:StartTime>
+    <cbc:EndDate>DATE</cbc:EndDate>
+    <cbc:EndTime>12:00:00</cbc:EndTime>
+  </cac:InvoicePeriod>
+
+
+NOTA: Cambiar DATE por la fecha del servicio
+
+
+
+
+****** ARCHIVO JSON ******
+
+1) Verificar Numero de Factura Ej -> Linea 3: "numFactura": "FV3010",
+2) Verificar Tipo de Doc Ej -> Linea 8: "tipoDocumentoIdentificacion": "CC",
+3) Actualizar Doc Ej -> Linea 9: "numDocumentoIdentificacion": "1020734283",
+4) Actualizar Fecha Nacimiento Ej -> Linea 11: "fechaNacimiento": "1988-04-04",
+5) Verificar Sexo: Ej -> Linea 12: "codSexo": "F",
+6) Fecha inicio atención (Misma que en xml en Paso 2) Ej -> Linea 23 : "fechaInicioAtencion": "2025-04-03 00:00",
+7) Codigo de Procedimiento (Excel como Codigo Servicio) Ej -> Linea 26: "codProcedimiento": "890206",
+8) Valor Servicio (valFac (XML) Factura igual a la factura) Ej -> Linea 37 :  vrServicio: 200000
+
+
+
+
+
+
+*********************************************************
+Esta es una ejecucion del script:
+Notese que salen los registros correctamente.
+Quiero que, ahora el script tenga otro formato de output, para mostrar mejor la informacion
+
+El excel tiene varios registros de varios clientes
+
+Pero lo que es las columnas: Paciente, Tipo Documento, Documento,  Edad, Fecha Nacimiento, Genero; siempre son constantes
+
+Entonces el script va a mostrar algo como
+
+
+Paciente: MARIA FERNANDA GARCIA CELIS 
+Documento: CC 51824630
+Genero: F
+Edad: 60
+Fecha Nacimiento: 1965-02-03 00:00:00
+
+NOTA: Notese que se uso las columnas Tipo documento y documento y se muestra como tal junto: CC 51824630. Esta info la toma del primer registro, ya que en el excel puede que haya mas de 1 registro.
+
+Y luego va a salir en formato de tabla
+
+Fecha | Estado | Codigo Servicio | Servicio
+
+Y salen los registros
+
+
+
+NOTA: Aquí debajo esta la ejecución del script
+
+EJECUCION:
+Nombre del paciente a buscar: MARIA FERNANDA GARCIA CELIS
+Fecha: 2025-04-02 14:00:00
+Estado: Atendida
+Documento: 51824630
+Tipo Documento: CC
+Paciente: MARIA FERNANDA GARCIA CELIS
+Edad: 60
+Fecha Nacimiento: 1965-02-03 00:00:00
+Genero: F
+Codigo Servicio: 890241
+Servicio: CONSULTA DE PRIMERA VEZ COLOPROCTOLOGIA
+
+Fecha: 2025-04-03 09:30:00
+Estado: Atendida
+Documento: 51824630
+Tipo Documento: CC
+Paciente: MARIA FERNANDA GARCIA CELIS
+Edad: 60
+Fecha Nacimiento: 1965-02-03 00:00:00
+Genero: F
+Codigo Servicio: 452305-1
+Servicio: COLONOSCOPIA TERAPEUTICA
+
+Fecha: 2025-04-03 10:19:39
+Estado: Atendida
+Documento: 51824630
+Tipo Documento: CC
+Paciente: MARIA FERNANDA GARCIA CELIS
+Edad: 60
+Fecha Nacimiento: 1965-02-03 00:00:00
+Genero: F
+Codigo Servicio: 452305-3
+Servicio: Cambio a Colonoscopia terapeutica
+
+Fecha: 2025-04-03 10:19:39
+Estado: Atendida
+Documento: 51824630
+Tipo Documento: CC
+Paciente: MARIA FERNANDA GARCIA CELIS
+Edad: 60
+Fecha Nacimiento: 1965-02-03 00:00:00
+Genero: F
+Codigo Servicio: 452305-3
+Servicio: Cambio a Colonoscopia terapéutica
+
+
+
+Hay forma de que el primer output también me salga en formato de tabla de la sig manera?
+
+Nombre del paciente a buscar: MARIA FERNANDA GARCIA CELIS
+
+-----------------------------------------------------------
+| Paciente	   | MARIA FERNANDA GARCIA CELIS	  |
+-----------------------------------------------------------
+| Documento 	   | CC 51824630			  |
+-----------------------------------------------------------
+| Genero       	   | F					  |
+-----------------------------------------------------------
+| Edad   	   | 60				          |
+-----------------------------------------------------------
+| Fecha Nacimiento | 1965-02-03 00:00:00		  |
+-----------------------------------------------------------
+
+
+Obiamente usando la misma librería de formato de tabla, y que se adecue al ancho y largo de los datos
+
+
+EJECUCION:
+
+C:\Users\Sergio Silva\Desktop\Script>python script_v2.py
+Nombre del paciente a buscar: MARIA FERNANDA GARCIA CELIS
+Paciente: MARIA FERNANDA GARCIA CELIS
+Documento: CC 51824630
+Genero: F
+Edad: 60
+Fecha Nacimiento: 1965-02-03 00:00:00
+
++---------------------+----------+-------------------+-----------------------------------------+
+| Fecha               | Estado   | Codigo Servicio   | Servicio                                |
+|---------------------+----------+-------------------+-----------------------------------------|
+| 2025-04-02 14:00:00 | Atendida | 890241            | CONSULTA DE PRIMERA VEZ COLOPROCTOLOGIA |
+| 2025-04-03 09:30:00 | Atendida | 452305-1          | COLONOSCOPIA TERAPEUTICA                |
+| 2025-04-03 10:19:39 | Atendida | 452305-3          | Cambio a Colonoscopia terapeutica       |
+| 2025-04-03 10:19:39 | Atendida | 452305-3          | Cambio a Colonoscopia terapeutica       |
++---------------------+----------+-------------------+-----------------------------------------+
+
+
+Puedes modificar el ultimo script que genera la estructura de directorios, xml y json
+
+Con la funcionalidad de:
+
+Necesito que los archivos mantengan la forma de sus nombres (FV_VALUE)
+
+Pero el directorio que contiene estos con nombre: ID-FV_VALUE
+
+AHora necesito la estructura
+
+ID-FVVALUE-DOC-NOMBRE
+
+Donde DOC es el numero de documento de la persona, y pues su nombre
+
+Digamos que el doc es 1234566 y el nombre MARIA ALEJANDRA GARCIA CIFUENTES
+
+Entonces quedaría el directorio asi: 10073-FV3003-1234566-MARIA_ALEJANDRA_GARCIA_CIFUENTES
+
+Notese que el nombre se cambia los espacios en blanco o se eliminan y se pone un _
+
+De donde se agarra las nuevas variables DOC y nombre? Del .xml
+
+EL nombre se encuentra en una linea que contenga esto: <cbc:RegistrationName>SANDRA YAMILETH SALAZAR GUAPACHA</cbc:RegistrationName>
+
+Usualmente esta en la linea 30, o cerca a ella, pero tener el código atento a extraer esta linea buscando en el documento.xml
+
+
+Debajo de esa misma linea donde se encuentra el nombre, esta el documento
+Ejemplo:
+<cbc:CompanyID schemeAgencyID="195" schemeID="0" schemeName="13">1130604788</cbc:CompanyID>
+
+Donde el DOC es: 1130604788
+
+
+{
+  "ResultState": true,
+  "ProcesoId": 12018187,
+  "NumFactura": "FV3003",
+  "CodigoUnicoValidacion": "5a26d30fee85efc98e7fcca4bdfcb0e5a9f2308c7dd95641ca3c7e25ebd2241819ded3f6ccfe0f2bde8e1d4888664c1b",
+  "FechaRadicacion": "2025-04-26T20:06:20.5358804",
+  "RutaArchivos": null,
+  "ResultadosValidacion": []
+}
+
+
+
+
+

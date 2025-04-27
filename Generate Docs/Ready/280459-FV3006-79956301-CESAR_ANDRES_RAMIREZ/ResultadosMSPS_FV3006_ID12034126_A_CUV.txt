@@ -1,0 +1,9 @@
+{
+  "ResultState": true,
+  "ProcesoId": 12034126,
+  "NumFactura": "FV3006",
+  "CodigoUnicoValidacion": "89e5f08e7ee7b7cbe939b8bf116c7297d46a70c1259707b0e55950f1549fce9ae93a3da30de814f3d1416b4a74bb7f29",
+  "FechaRadicacion": "2025-04-27T01:41:28.6210191-05:00",
+  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\280459-FV3006-79956301-CESAR_ANDRES_RAMIREZ",
+  "ResultadosValidacion": []
+}

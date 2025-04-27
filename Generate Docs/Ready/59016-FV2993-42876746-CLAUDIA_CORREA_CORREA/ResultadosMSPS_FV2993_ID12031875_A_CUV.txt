@@ -1,0 +1,9 @@
+{
+  "ResultState": true,
+  "ProcesoId": 12031875,
+  "NumFactura": "FV2993",
+  "CodigoUnicoValidacion": "b12830f89d3289227d8773f8077830af2d2784fe376211e6b520b32fd5ab41ba6505929e3e4d652a1b8d12c824c99be7",
+  "FechaRadicacion": "2025-04-27T01:21:20.3507418-05:00",
+  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\59016-FV2993-42876746-CLAUDIA_CORREA_CORREA",
+  "ResultadosValidacion": []
+}
