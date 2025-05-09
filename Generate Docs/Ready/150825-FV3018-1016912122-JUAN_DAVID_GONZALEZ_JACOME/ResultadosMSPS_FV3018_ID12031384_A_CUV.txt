@@ -1,9 +1,0 @@
-{
-  "ResultState": true,
-  "ProcesoId": 12031384,
-  "NumFactura": "FV3018",
-  "CodigoUnicoValidacion": "a12600e87a228bf3a0f02f61e422fbf067281965b1443a3ab28c4a5b8523d8a0ece8c8c6151d30910e7e7cd1302dbcb6",
-  "FechaRadicacion": "2025-04-27T00:51:20.3640561-05:00",
-  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\150825-FV3018-1016912122-JUAN_DAVID_GONZALEZ_JACOME",
-  "ResultadosValidacion": []
-}

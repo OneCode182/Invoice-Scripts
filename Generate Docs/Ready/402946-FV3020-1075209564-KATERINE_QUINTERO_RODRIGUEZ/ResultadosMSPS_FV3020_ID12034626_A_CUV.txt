@@ -1,9 +1,0 @@
-{
-  "ResultState": true,
-  "ProcesoId": 12034626,
-  "NumFactura": "FV3020",
-  "CodigoUnicoValidacion": "ffed9c289dd30944dfe75a8cc18b0c898811da0dec1e2311a728eaf31173f058a305ae6807d75a985763ef7d284c893f",
-  "FechaRadicacion": "2025-04-27T02:05:45.8601139-05:00",
-  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\402946-FV3020-1075209564-KATERINE_QUINTERO_RODRIGUEZ",
-  "ResultadosValidacion": []
-}

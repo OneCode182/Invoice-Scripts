@@ -1,9 +1,0 @@
-{
-  "ResultState": true,
-  "ProcesoId": 12035627,
-  "NumFactura": "FV3015",
-  "CodigoUnicoValidacion": "61398bfe97c6e843f7f6211def5faf1b99f0f74a91308587f4113495aa7805e5eb21109bd0b21326d6ace36b64721564",
-  "FechaRadicacion": "2025-04-27T02:13:06.028174-05:00",
-  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\470280-FV3015-N09475731-OMAR_ANDRE_FUENTES",
-  "ResultadosValidacion": []
-}

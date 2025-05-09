@@ -1,9 +1,0 @@
-{
-  "ResultState": true,
-  "ProcesoId": 12036295,
-  "NumFactura": "FV3004",
-  "CodigoUnicoValidacion": "79becd18c636f297dcdab7bedc09bf2b5b9699fdc96a536253ecebd65b968bd7e08ff2abbbb8ddc7aad53c20bcd0c572",
-  "FechaRadicacion": "2025-04-27T02:17:49.6160609-05:00",
-  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\477771-FV3004-G35200780-NANCY_YRUEGAS_MARTINEZ",
-  "ResultadosValidacion": []
-}

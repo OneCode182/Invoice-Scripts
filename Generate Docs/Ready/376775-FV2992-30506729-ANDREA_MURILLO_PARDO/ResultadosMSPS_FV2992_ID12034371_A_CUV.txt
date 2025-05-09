@@ -1,9 +1,0 @@
-{
-  "ResultState": true,
-  "ProcesoId": 12034371,
-  "NumFactura": "FV2992",
-  "CodigoUnicoValidacion": "47c63e963f4389c6160ad3c60076cc7312040f4d2a7bc8d7835ce69b5ce466896c7d8a5e3179b10228537c373d716bc8",
-  "FechaRadicacion": "2025-04-27T01:58:18.9555352-05:00",
-  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\376775-FV2992-30506729-ANDREA_MURILLO_PARDO",
-  "ResultadosValidacion": []
-}

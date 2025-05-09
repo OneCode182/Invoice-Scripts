@@ -1,9 +1,0 @@
-{
-  "ResultState": true,
-  "ProcesoId": 12033200,
-  "NumFactura": "FV3013",
-  "CodigoUnicoValidacion": "477443aa9e0e938e5c50c5ce321d999d42f575ce929c2b740aa13b0beae1f771010f1e1423d51681b802ba0a40f04653",
-  "FechaRadicacion": "2025-04-27T01:30:12.6998338-05:00",
-  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\210447-FV3013-1136887889-JUAN_PABLO_ALVAREZ_LAFAURIE",
-  "ResultadosValidacion": []
-}

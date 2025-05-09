@@ -1,9 +1,0 @@
-{
-  "ResultState": true,
-  "ProcesoId": 12031548,
-  "NumFactura": "FV3016",
-  "CodigoUnicoValidacion": "92fbec8fb44f4b12b8aa4fc5092a21b7ce02b6f356cb5148291c76c5eb7d3487655eeb176b6202679cd61b2c8cebf169",
-  "FechaRadicacion": "2025-04-27T01:08:45.9399806-05:00",
-  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\58161-FV3016-14237477-CESAR_HUMBERTO_MURILLO_CUELLAR",
-  "ResultadosValidacion": []
-}

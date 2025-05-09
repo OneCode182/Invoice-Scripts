@@ -1,9 +1,0 @@
-{
-  "ResultState": true,
-  "ProcesoId": 12034252,
-  "NumFactura": "FV3011",
-  "CodigoUnicoValidacion": "7652da14f6491455b3beb273d8528f9d03a764a8ba30ff7a6bac589f852b9c1b8ce4f8715a6dbd9bd3f357bf95c88957",
-  "FechaRadicacion": "2025-04-27T01:50:40.6972709-05:00",
-  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\283035-FV3011-7501106-ALEXANDRE_CAMPOS_DE_OLIVEIRA",
-  "ResultadosValidacion": []
-}

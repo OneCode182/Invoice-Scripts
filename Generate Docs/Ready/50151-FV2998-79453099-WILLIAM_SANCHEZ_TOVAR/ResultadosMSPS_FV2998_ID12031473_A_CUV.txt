@@ -1,9 +1,0 @@
-{
-  "ResultState": true,
-  "ProcesoId": 12031473,
-  "NumFactura": "FV2998",
-  "CodigoUnicoValidacion": "53a8b047ba0786cee39ef6963ded7e4b86d0d7c432525813b74ed88aba8a32e5f92ac941a3748fd1d984fb06da8a5b30",
-  "FechaRadicacion": "2025-04-27T01:02:09.8941912-05:00",
-  "RutaArchivos": "C:\\Users\\Sergio Silva\\Desktop\\Script\\Generate Docs\\Docs\\50151-FV2998-79453099-WILLIAM_SANCHEZ_TOVAR",
-  "ResultadosValidacion": []
-}
