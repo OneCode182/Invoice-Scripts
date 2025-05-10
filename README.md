@@ -82,12 +82,12 @@ Este script modifica archivos XML de facturas para añadir información específ
 
 1. Configura la ruta al archivo XML en la clase `App`:
    ```python
-   self.PATH_XML = r"C:\ruta\a\tu\archivo.xml"
+   self.EJ_RUTA_XML = r"C:\ruta\a\tu\archivo.xml"
    ```
 
 2. Ejecuta el script:
    ```bash
-   python App/app.py
+   python App/App.py
    ```
 
 3. Utiliza el menú interactivo para:
@@ -145,6 +145,14 @@ Y bloques de fecha:
   <cbc:EndTime>12:00:00</cbc:EndTime>
 </cac:InvoicePeriod>
 ```
+
+Funcionamiento:
+![img](./Screens/Screen-GenDirs.png)
+![img](./Screens/Screen-App-ScriptZero.png)
+![img](./Screens/Screen-App-ScriptZero2.png)
+
+
+
 
 ## 🤝 Contribuciones
 
