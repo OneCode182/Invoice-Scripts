@@ -1,10 +1,56 @@
+import os
+
+from App.ExcelData import ExcelData
+from App.JsonData import JsonData
+from App.Log import Log
+from App.SearchFiles import SearchFiles
+import re
 
 class App:
     def __init__(self):
-        self.PATH_XML = r"C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Lab\file_2.xml"
-        self.lineas = []
-        self._cargar_archivo()
-        self.VAR_2_DATE = self.get_var_2_date()  # Fecha por defecto
+        # RUTAS ARCHIVOS
+        self.RUTA_FACTS = r"C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts"
+        self.EJ_RUTA_XML = r"C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Lab\file.xml"
+        self.RUTA_EXCEL_PACIENTES = r"C:\Users\Sergio Silva\Desktop\Pacientes atendidos 2 23-25.xlsx"
+
+        #self.lineas = []
+        #self._cargar_archivo()
+        #self.VAR_2_DATE = self.get_var_2_date()  # Fecha por defecto
+
+        # EXCEL DATA
+        print("*** INFO: Cargando Excel... ***")
+        self.excel_obj = ExcelData(self.RUTA_EXCEL_PACIENTES)
+        self.excel_data = self.excel_obj.getData()
+        self.search = SearchFiles()
+        print("*** INFO: EXCEL Cargado Correctamente! ***")
+
+
+
+    def search_val_fact(self):
+        """
+        Busca la ocurrencia de 'ValTolFac' en el XML cargado y extrae la parte entera del valor numérico.
+
+        Returns:
+            int: El valor entero asociado a 'ValTolFac', o None si no se encuentra.
+        """
+        if not self.lineas_xml:
+            print("El archivo XML no está cargado.")
+            return None
+
+        # Definimos una expresión regular para encontrar 'ValTolFac' seguido de un número
+        patron = r"ValTolFac:\s*([0-9]+(?:\.[0-9]+)?)"
+
+        # Recorremos las líneas para encontrar el patrón
+        for linea in self.lineas_xml:
+            match = re.search(patron, linea)
+            if match:
+                # Extraemos el valor numérico como una cadena
+                valor = match.group(1)
+                # Convertimos el valor a entero
+                return int(float(valor))  # Lo convertimos primero a float para eliminar posibles decimales
+
+        print("No se encontró 'ValTolFac' en el archivo XML.")
+        return None
 
 
 
@@ -19,48 +65,48 @@ class App:
         """
         fecha_default = "2025-04-04"
 
-        if not self.lineas:
-            print("El archivo no está cargado o está vacío. Usando fecha por defecto.")
+        if not self.lineas_xml:
+            self.log.log_message("El archivo no está cargado o está vacío. Usando fecha por defecto.")
             return fecha_default
 
         # Buscar la etiqueta IssueDate y extraer la fecha
-        for linea in self.lineas:
+        for linea in self.lineas_xml:
             if "<cbc:IssueDate>" in linea:
                 # Extraer el contenido entre las etiquetas
                 inicio = linea.find("<cbc:IssueDate>") + len("<cbc:IssueDate>")
                 fin = linea.find("</cbc:IssueDate>")
                 if inicio != -1 and fin != -1:
                     fecha = linea[inicio:fin].strip()
-                    print(f"Fecha encontrada en el XML: {fecha}")
+                    self.log.log_message(f"Fecha encontrada en el XML: {fecha}")
                     return fecha
 
         print("No se encontró la etiqueta <cbc:IssueDate> en el XML. Usando fecha por defecto.")
         return fecha_default
 
 
-    def _cargar_archivo(self):
+    def _cargar_archivo(self, ruta_xml):
         """
         Carga el contenido del archivo XML en memoria como líneas.
         """
         try:
-            with open(self.PATH_XML, 'r', encoding='utf-8') as archivo:
-                self.lineas = archivo.readlines()
-            print(f"Archivo '{self.PATH_XML}' cargado correctamente.")
+            with open(ruta_xml, 'r', encoding='utf-8') as archivo:
+                self.lineas_xml = archivo.readlines()
+            self.log.log_message(f"Archivo '{ruta_xml}' cargado correctamente.")
         except FileNotFoundError:
-            print(f"Error: El archivo '{self.PATH_XML}' no existe.")
-            self.lineas = []
+            self.log.log_message(f"Error: El archivo '{ruta_xml}' no existe.")
+            self.lineas_xml = []
         except PermissionError:
-            print(f"Error: No tienes permisos para leer el archivo '{self.PATH_XML}'.")
-            self.lineas = []
+            self.log.log_message(f"Error: No tienes permisos para leer el archivo '{ruta_xml}'.")
+            self.lineas_xml = []
         except Exception as e:
-            print(f"Error al cargar el archivo: {e}")
-            self.lineas = []
+            self.log.log_message(f"Error al cargar el archivo: {e}")
+            self.lineas_xml = []
 
     def rango_xml(self, palabra_1, palabra_2):
         # Buscar rango de lineas por 2 palabras
         flag, pos_ini, pos_fin = False, 0, 0
 
-        for i, linea in enumerate(self.lineas):
+        for i, linea in enumerate(self.lineas_xml):
             if palabra_1 in linea:
                 pos_ini = i
 
@@ -98,7 +144,7 @@ class App:
         print("\n2. BLOQUE INVOICE_PERIOD:")
         if flag_op2:
             print(f"   ✓ Insertado correctamente")
-            print(f"   ✓ Fecha utilizada: {self.VAR_2_DATE}")
+            #print(f"   ✓ Fecha utilizada: {self.VAR_2_DATE}")
             print(
                 f"   ✓ Rango de líneas: {a_op2} - {b_op2}")
         else:
@@ -108,7 +154,7 @@ class App:
         print("\n3. GUARDADO DEL ARCHIVO:")
         if guardado:
             print(f"   ✓ Archivo guardado correctamente")
-            print(f"   ✓ Ruta: {self.PATH_XML}")
+            print(f"   ✓ Ruta: {self.EJ_RUTA_XML}")
         else:
             print("   ✗ No se pudo guardar el archivo")
 
@@ -118,19 +164,27 @@ class App:
 
     def run_script_zero(self):
         # Ejecutar Opcion 1
-        print("\n=== Ejecutando OP1: Codigo Prestador ===")
+        print("\n=== Ejecutando OP1 XML: Codigo Prestador ===")
         self.bloque_cod_prestador()
 
         # Ejecutar Opcion 2
-        print("\n=== Ejecutando OP2: Fecha del Invoice ===")
+        print("\n=== Ejecutando OP2 XML: Fecha del Invoice ===")
         self.invoice_date()
 
         # Guardar cambios
-        print("\n=== Guardando Cambios... ===")
+        print("\n=== Guardando Cambios XML... ===")
         resultado_guardado = self.guardar_archivo()
+
+
+        # Ejecutar JSON DATA
+        print("\n=== Ejecutando OP3 JSON: Datos del Excel al JSON ===")
+        #self.json_data()
+
+
 
         # Mostrar resultados y resumen
         self.show_resume(resultado_guardado)
+
 
 
 
@@ -141,23 +195,23 @@ class App:
         Returns:
             bool: True si se realizó la inserción, False en caso contrario
         """
-        if not self.lineas:
-            print("El archivo no está cargado o está vacío.")
+        if not self.lineas_xml:
+            self.log.log_message("El archivo no está cargado o está vacío.")
             return False
 
         # Buscar la posición del bloque CODIGO_PRESTADOR
         posicion = -1
-        for i, linea in enumerate(self.lineas):
+        for i, linea in enumerate(self.lineas_xml):
             if "<Name>CODIGO_PRESTADOR</Name>" in linea:
                 # Buscar el cierre del bloque AdditionalInformation
-                for j in range(i, len(self.lineas)):
-                    if "</AdditionalInformation>" in self.lineas[j]:
+                for j in range(i, len(self.lineas_xml)):
+                    if "</AdditionalInformation>" in self.lineas_xml[j]:
                         posicion = j
                         break
                 break
 
         if posicion == -1:
-            print("No se encontró el bloque CODIGO_PRESTADOR.")
+            self.log.log_message("No se encontró el bloque CODIGO_PRESTADOR.")
             return False
 
         # Bloques a insertar
@@ -173,8 +227,8 @@ class App:
         ]
 
         # Insertar después del cierre del bloque AdditionalInformation
-        self.lineas = self.lineas[:posicion + 1] + bloques_a_insertar + self.lineas[posicion + 1:]
-        print("Bloques insertados después de CODIGO_PRESTADOR.")
+        self.lineas_xml = self.lineas_xml[:posicion + 1] + bloques_a_insertar + self.lineas_xml[posicion + 1:]
+        self.log.log_message("Bloques insertados después de CODIGO_PRESTADOR.")
         return True
 
 
@@ -188,21 +242,21 @@ class App:
             bool: True si se realizó la inserción, False en caso contrario
         """
 
-        fecha = self.VAR_2_DATE
+        fecha = self.get_var_2_date()
 
-        if not self.lineas:
-            print("El archivo no está cargado o está vacío.")
+        if not self.lineas_xml:
+            self.log.log_message("El archivo no está cargado o está vacío.")
             return False
 
         # Buscar la posición de LineCountNumeric
         posicion = -1
-        for i, linea in enumerate(self.lineas):
+        for i, linea in enumerate(self.lineas_xml):
             if "<cbc:LineCountNumeric>1</cbc:LineCountNumeric>" in linea:
                 posicion = i
                 break
 
         if posicion == -1:
-            print("No se encontró la línea <cbc:LineCountNumeric>1</cbc:LineCountNumeric>.")
+            self.log.log_message("No se encontró la línea <cbc:LineCountNumeric>1</cbc:LineCountNumeric>.")
             return False
 
         # Bloque a insertar con la fecha variable
@@ -216,8 +270,8 @@ class App:
         ]
 
         # Insertar después de LineCountNumeric
-        self.lineas = self.lineas[:posicion + 1] + bloque_a_insertar + self.lineas[posicion + 1:]
-        print(f"Bloque InvoicePeriod insertado con fecha {fecha}.")
+        self.lineas_xml = self.lineas_xml[:posicion + 1] + bloque_a_insertar + self.lineas_xml[posicion + 1:]
+        self.log.log_message(f"Bloque InvoicePeriod insertado con fecha {fecha}.")
         return True
 
 
@@ -232,23 +286,235 @@ class App:
         Returns:
             bool: True si se guardó correctamente, False en caso contrario
         """
-        if not self.lineas:
-            print("No hay contenido para guardar.")
+        if not self.lineas_xml:
+            self.log.log_message("No hay contenido para guardar.")
             return False
 
-        ruta_destino = ruta_salida if ruta_salida else self.PATH_XML
+        ruta_destino = ruta_salida if ruta_salida else self.rutas['xml']
 
         try:
             with open(ruta_destino, 'w', encoding='utf-8') as archivo:
-                archivo.writelines(self.lineas)
-            print(f"Archivo guardado correctamente en '{ruta_destino}'.")
+                archivo.writelines(self.lineas_xml)
+            self.log.log_message(f"Archivo guardado correctamente en '{ruta_destino}'.")
             return True
         except PermissionError:
-            print(f"Error: No tienes permisos para escribir en '{ruta_destino}'.")
+            self.log.log_message(f"Error: No tienes permisos para escribir en '{ruta_destino}'.")
             return False
         except Exception as e:
-            print(f"Error al guardar el archivo: {e}")
+            self.log.log_message(f"Error al guardar el archivo: {e}")
             return False
+
+
+    def process_fact(self, doc):
+
+        try:
+            # Ejecutar Opcion 1
+            self.log.log_message("\n=== Ejecutando OP1 XML: Codigo Prestador ===")
+            self.bloque_cod_prestador()
+
+            # Ejecutar Opcion 2
+            self.log.log_message("\n=== Ejecutando OP2 XML: Fecha del Invoice ===")
+            self.invoice_date()
+
+            # Guardar cambios
+            self.log.log_message("\n=== Guardando Cambios en XML... ===")
+            resultado_guardado = self.guardar_archivo()
+
+
+            # Ejecutar JSON DATA
+            self.log.log_message("\n=== Ejecutando OP3 JSON: Datos del Excel al JSON ===")
+            self.json_data(doc)
+
+
+        except Exception as e:
+            self.log.log_message(f"*** ERROR *** 'Exception' en funcion 'process_fact(doc)': \n OUT-> {e}")
+
+
+
+
+    def get_cod_proc(self):
+        """
+        Extrae el ID dentro de las etiquetas StandardItemIdentification de un XML.
+
+        Returns:
+            list: Lista con los IDs encontrados (generalmente serán 2)
+        """
+        ids_encontrados = []
+        contenido_completo = ''.join(self.lineas_xml)  # Unir todas las líneas en una sola cadena
+
+        # Dividir por StandardItemIdentification para encontrar las secciones relevantes
+        partes = contenido_completo.split("<cac:StandardItemIdentification>")
+
+        # La primera parte no contiene lo que buscamos, así que empezamos desde la segunda
+        for i in range(1, len(partes)):
+            # Buscar hasta el cierre de la etiqueta StandardItemIdentification
+            seccion = partes[i].split("</cac:StandardItemIdentification>")[0]
+
+            # Extraer el contenido entre <cbc:ID> y </cbc:ID>
+            inicio_id = seccion.find("<cbc:ID")
+            if inicio_id != -1:
+                # Encontrar el inicio del contenido después de >
+                inicio_contenido = seccion.find(">", inicio_id) + 1
+
+                # Encontrar el final del contenido antes de </cbc:ID>
+                fin_contenido = seccion.find("</cbc:ID>", inicio_contenido)
+
+                # Extraer el ID
+                if inicio_contenido < fin_contenido:
+                    id_valor = seccion[inicio_contenido:fin_contenido]
+                    ids_encontrados.append(id_valor)
+
+        return ids_encontrados[0]
+
+
+
+    def json_data(self, doc):
+        # Obtener Datos Paciente por Documento
+        data_doc = self.excel_obj.get_data_by_doc(doc)
+
+        # Agregar valores adicionales a los del excel
+        data_doc['numFactura'] = self.rutas['FV_VALUE']
+        data_doc['fechaIni'] = self.get_var_2_date()
+        data_doc['codProc'] = self.get_cod_proc()
+        data_doc['valorServ'] = self.search_val_fact()
+
+        # Modificar JSON
+        self.json_obj.modificar_json(data_doc)
+
+        # Guardar JSON
+        self.json_obj.guardar_json()
+
+
+
+    def verificar_proceso(self):
+        dirs = os.listdir(self.RUTA_FACTS)
+        a, b = 0, 0
+        a_l, b_l = [], []
+
+        for i, directorio in enumerate(dirs):
+            rutas = self.search.buscar_por_doc(self.RUTA_FACTS, directorio.split('-')[2])
+
+            # Crear el Log
+            log_dir = r'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\LOG-TEST'
+            self.log = Log(log_dir, rutas['dir_pac'])
+            self.excel_obj.setLog(self.log)
+
+            FV = directorio.split('-')[1]
+
+            self.json_obj = JsonData(rutas['json'], self.excel_obj, self.log)
+
+
+            if FV == self.json_obj.getNumFac():
+                a += 1
+                a_l.append(directorio)
+
+            else:
+                b += 1
+                b_l.append(directorio)
+
+        print("\n======= RESUMEN PROCESO =======")
+        print(f" -> # Cantidad de Facturas: {len(dirs)}")
+        print(f" -> ✓ Facturas Procesadas: {a}")
+        print(f" -> - Facturas Sin Procesar: {b}")
+
+        print(f"\n *** ✓ FACTS PROCESADAS ({a})***")
+        for _ in a_l:
+            print(f"-> {_}")
+
+        print(f"\n *** - FACTS SIN PROCESAR {b} ***")
+        for _ in b_l:
+            print(f"-> {_}")
+
+
+    def script_documento(self):
+        doc = input("Digite Documento: ")
+        self.rutas = self.search.buscar_por_doc(self.RUTA_FACTS, doc)
+
+
+        if self.rutas:
+            print("Paciente Encontrado !")
+            print(f"Dir: {self.rutas['directorio']}")
+
+
+            # Crear el Log
+            log_dir = r'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\LOG-TEST'
+            self.log = Log(log_dir, self.rutas['dir_pac'])
+            self.excel_obj.setLog(self.log)
+
+            # Cargar XML
+            self.lineas_xml = []
+            self._cargar_archivo(self.rutas['xml'])
+            if not self.lineas_xml:
+                self.log.log_message("No se pudo cargar el archivo XML. Saliendo.")
+                return
+
+            # Cargar JSON
+            self.json_obj = JsonData(self.rutas['json'], self.excel_obj, self.log)
+
+            # Procesar Factura: XML - JSON - EXCEL
+            self.process_fact(doc)
+
+
+            # Mostrar INFO Paciente
+            self.excel_obj.mostrar_resultados(self.excel_obj.buscar_paciente_por_cedula(doc))
+
+        else:
+            self.log.log_message(f"ERROR: El Directorio con referencia al DOC: {doc} no existe!")
+
+
+
+    def script_final(self):
+        dirs = os.listdir(self.RUTA_FACTS)
+        a, b = 0, 0
+
+        for i, directorio in enumerate(dirs):
+            try:
+                doc = directorio.split("-")[2]
+                self.rutas = self.search.buscar_por_doc(self.RUTA_FACTS, doc)
+
+                if self.rutas:
+
+                    # ************ Logica ************
+
+                    # Crear el Log
+                    log_dir = r'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\LOG-TEST'
+                    self.log = Log(log_dir, self.rutas['dir_pac'])
+                    self.excel_obj.setLog(self.log)
+
+                    # Cargar XML
+                    self.lineas_xml = []
+                    self._cargar_archivo(self.rutas['xml'])
+                    if not self.lineas_xml:
+                        self.log.log_message("No se pudo cargar el archivo XML. Saliendo.")
+                        return
+
+                    # Cargar JSON
+                    self.json_obj = JsonData(self.rutas['json'], self.excel_obj, self.log)
+
+                    # Procesar Factura: XML - JSON - EXCEL
+                    self.process_fact(doc)
+
+                    # Mostrar INFO Paciente
+                    self.excel_obj.mostrar_resultados(self.excel_obj.buscar_paciente_por_cedula(doc))
+
+
+                    self.log.print_with_log(f" {i}) ✓ Factura '{directorio}' procesada con Exito!")
+                    a += 1
+                else:
+                    self.log.print_with_log("ERROR: no encontro por el doc suministrado (func script_final())")
+                    b += 1
+
+            except Exception as e:
+                self.log.print_with_log(f" {i}) *ERROR* -> Factura '{directorio}' sin procesar (Revisar el LOG)!\n ERROR {e}")
+                b += 1
+
+
+        print("\n======= RESUMEN PROCESO =======")
+        print(f" -> # Cantidad de Facturas: {len(dirs)}")
+        print(f" -> ✓ Facturas Procesadas: {a}")
+        print(f" -> - Facturas Sin Procesar: {b}")
+
+
 
 
 
@@ -257,50 +523,51 @@ def menu():
     # VARIABLES
     app  = App()
 
-
     print("\n=== APLICACION INVOICE v1.0 ===")
 
-    if not app.lineas:
-        print("No se pudo cargar el archivo. Saliendo.")
-        return
 
     while True:
         print("\n--- MENÚ DE OPERACIONES ---")
-        print("0. SCRIPT ZERO: Ejectutar XML y JSON Scripts!")
-        print("1. Insertar BLOQUE -> CODIGO_PRESTADOR")
-        print("2. Insertar BLOQUE -> FECHA InvoicePeriod")
-        print("3. Cambiar la fecha para InvoicePeriod (actual:", app.PATH_XML, ")")
-        print("4. Guardar cambios")
-        print("5. Guardar como...")
-        print("6. Salir")
+        print("0) SCRIPT ZERO: Ejectutar XML y JSON Scripts!")
+        print("1) *** { SCRIPT FINAL } ***: Procesar Todos Los pacientes")
+        print("2) SCRIPT: Procesar por Documento")
+        print("3) SCRIPT: Mostrar Nombres Directorios")
+        print("4) SCRIPT: Mostrar Documentos Directorios")
+
+        print("\n=======================================")
+        print(" *** Otras funciones ***")
+        print("5. Insertar en XML -> CODIGO_PRESTADOR")
+        print("6. Insertar en XML -> FECHA InvoicePeriod")
+        print("7. ** Verificar Facts Procesadas **")
+        print("X) Salir")
 
         opcion = input("\nSelecciona una opción (1-6): ")
 
         if opcion == "0":
             app.run_script_zero()
 
-        elif opcion == "1":
-            app.bloque_cod_prestador()
+        elif opcion == '1':
+            app.script_final()
 
         elif opcion == "2":
-            app.invoice_date()
+            app.script_documento()
 
         elif opcion == "3":
-            nueva_fecha = input("Introduce la nueva fecha (formato YYYY-MM-DD): ")
-            if len(nueva_fecha) == 10 and nueva_fecha[4] == '-' and nueva_fecha[7] == '-':
-                var_2_date = nueva_fecha
-                print(f"Fecha actualizada a {var_2_date}")
-            else:
-                print("Formato de fecha incorrecto. Use YYYY-MM-DD (ej: 2025-04-01)")
+            app.search.mostrar_nombre_dirs(app.RUTA_FACTS)
 
         elif opcion == "4":
-            app.guardar_archivo()
+            app.search.mostrar_docs_dirs(app.RUTA_FACTS)
 
         elif opcion == "5":
-            ruta_nueva = input("Introduce la ruta para el nuevo archivo: ")
-            app.guardar_archivo(ruta_nueva)
+            app.bloque_cod_prestador()
 
         elif opcion == "6":
+            app.invoice_date()
+
+        elif opcion == '7':
+            app.verificar_proceso()
+
+        elif opcion.lower() == "x":
             respuesta = input("¿Seguro que deseas salir? Los cambios no guardados se perderán (s/n): ")
             if respuesta.lower() == "s":
                 print("¡Hasta luego!")
@@ -314,4 +581,6 @@ def menu():
 
 if __name__ == '__main__':
     menu()
+
+
 

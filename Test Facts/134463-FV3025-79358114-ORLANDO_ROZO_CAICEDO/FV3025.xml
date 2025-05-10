@@ -109,6 +109,14 @@ https://catalogo-vpfe.dian.gov.co/document/searchqr?documentkey=3ba7797e199b6f6d
                   <Value schemeID="15" schemeName="salud_cobertura.gc">Particular</Value>    
                 </AdditionalInformation>
                 <AdditionalInformation>
+                  <Name>MODALIDAD_PAGO</Name>
+                  <Value schemeID="04" schemeName="salud_modalidad_pago.gc">Pago por evento</Value>
+                </AdditionalInformation>
+                <AdditionalInformation>
+                  <Name>COBERTURA_PLAN_BENEFICIOS</Name>
+                  <Value schemeID="15" schemeName="salud_cobertura.gc">Particular</Value>    
+                </AdditionalInformation>
+                <AdditionalInformation>
                   <Name>NUMERO_CONTRATO</Name>
                   <Value></Value>
                 </AdditionalInformation>
@@ -136,6 +144,12 @@ https://catalogo-vpfe.dian.gov.co/document/searchqr?documentkey=3ba7797e199b6f6d
 </cbc:Note>
   <cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
   <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+  <cac:InvoicePeriod>
+    <cbc:StartDate>2025-04-04</cbc:StartDate>
+    <cbc:StartTime>12:00:00</cbc:StartTime>
+    <cbc:EndDate>2025-04-04</cbc:EndDate>
+    <cbc:EndTime>12:00:00</cbc:EndTime>
+  </cac:InvoicePeriod>
   <cac:InvoicePeriod>
     <cbc:StartDate>2025-04-04</cbc:StartDate>
     <cbc:StartTime>12:00:00</cbc:StartTime>
