@@ -38,7 +38,7 @@ class SearchFiles:
         for directorio in directorios:
             print(directorio)
 
-    def buscar_por_doc(self, directorio_base, documento_paciente):
+    def buscar_por_fv(self, directorio_base, fv_value):
         # Recorremos todos los directorios dentro del directorio base
         for directorio in os.listdir(directorio_base):
             ruta_directorio = os.path.join(directorio_base, directorio)
@@ -48,10 +48,10 @@ class SearchFiles:
                 # Extraemos el número de documento del nombre del directorio
                 partes = directorio.split('-')
                 if len(partes) >= 4:
-                    numero_documento = partes[2]  # El tercer elemento es el número de documento
+                    fv_val_dir = partes[1]  # El tercer elemento es el número de documento
 
                     # Si el número de documento coincide con el proporcionado, retornamos las rutas
-                    if numero_documento == documento_paciente:
+                    if fv_val_dir == fv_value:
                         ruta_xml = os.path.join(ruta_directorio, f"{partes[1]}.xml")
                         ruta_json = os.path.join(ruta_directorio, f"{partes[1]}.json")
 
@@ -62,7 +62,8 @@ class SearchFiles:
                                 'xml': ruta_xml,
                                 'json': ruta_json,
                                 'FV_VALUE': partes[1],
-                                'dir_pac':directorio
+                                'dir_pac':directorio,
+                                'doc':partes[2]
                             }
         # Si no encontramos nada
         return None

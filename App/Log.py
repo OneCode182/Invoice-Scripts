@@ -59,31 +59,4 @@ class Log:
 
 
 
-"""
-
-
-    def buscar_valtolfac(self):
-        if not self.lineas_xml:
-            error_message = "El archivo XML no está cargado."
-            self.log_error(error_message)
-            print(error_message)
-            return None
-
-        # Realizamos la búsqueda y extracción como antes
-        patron = r"ValTolFac:\s*([0-9]+(?:\.[0-9]+)?)"
-        for linea in self.lineas_xml:
-            match = re.search(patron, linea)
-            if match:
-                valor = match.group(1)
-                valor_entero = int(float(valor))  # Convertirlo a entero
-                self.log_message(f"Valor ValTolFac encontrado: {valor_entero}")
-                return valor_entero
-
-        error_message = "No se encontró 'ValTolFac' en el archivo XML."
-        self.log_error(error_message)
-        print(error_message)
-        return None
-
-"""
-
 

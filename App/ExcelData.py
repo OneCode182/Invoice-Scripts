@@ -67,6 +67,8 @@ class ExcelData:
             # Si todo falla, convertir a string
             return str(fecha)
 
+
+
     def buscar_paciente_por_cedula(self, cedula):
         """
         Busca un paciente en un archivo Excel por su número de cédula y devuelve todos los registros encontrados.

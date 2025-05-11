@@ -6,10 +6,10 @@ from pathlib import Path
 
 
 # —————— CONFIGURACIÓN DIRECTORIOS Y ARCHIVOS ——————
-CRDOWNLOAD_DIR    = Path(r"C:\Users\Sergio Silva\Desktop\CR-ABR-4-7")
+CRDOWNLOAD_DIR    = Path(r"C:\Users\Sergio Silva\Desktop\CR-ABR-8-12")
 JSON_SOURCE_PATH  = Path(r"C:\Users\Sergio Silva\Desktop\FACTS-FILES\template.json")
-MASTER_OUTPUT_DIR = Path(r"C:\Users\Sergio Silva\Desktop\FACT-ABR-4-7")
-EXCEL_OUTPUT_PATH = Path(r"C:\Users\Sergio Silva\Desktop\FACTS-FILES\Lote_02-ABR-4-7.xlsx")
+MASTER_OUTPUT_DIR = Path(r"C:\Users\Sergio Silva\Desktop\FACT-ABR-8-12")
+EXCEL_OUTPUT_PATH = Path(r"C:\Users\Sergio Silva\Desktop\FACTS-FILES\Lote_03-ABR-8-12.xlsx")
 
 
 

@@ -1,35 +1,2156 @@
-2025-05-10 16:47:14,111 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,113 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,116 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,118 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,120 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,123 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,126 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,135 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,138 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,140 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,141 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,144 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,146 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,149 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,152 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,156 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,159 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,163 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,166 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,170 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,173 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,177 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,183 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,186 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,188 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,193 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,196 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,200 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,205 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,210 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,215 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,217 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,222 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,228 - INFO - Iniciando el registro de la aplicación.
-2025-05-10 16:47:14,234 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:22,930 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:22,933 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\130327-FV3052-1019075194-MORIS_JAVIER_GUZMAN_SORIANO\FV3052.xml' cargado correctamente.
+2025-05-10 19:29:22,934 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:22,935 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:22,935 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:22,935 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:22,936 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:22,936 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:22,939 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\130327-FV3052-1019075194-MORIS_JAVIER_GUZMAN_SORIANO\FV3052.xml'.
+2025-05-10 19:29:22,939 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:22,943 - INFO - Se encontraron 3 registros para el paciente con cédula: 1019075194
+2025-05-10 19:29:22,946 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:22,949 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\130327-FV3052-1019075194-MORIS_JAVIER_GUZMAN_SORIANO\FV3052.json' modificado exitosamente.
+2025-05-10 19:29:22,951 - INFO - Se encontraron 3 registros para el paciente con cédula: 1019075194
+2025-05-10 19:29:22,953 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:22,953 - INFO - Nombre: MORIS JAVIER GUZMAN SORIANO
+2025-05-10 19:29:22,953 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:22,953 - INFO - Número de Documento: 1019075194
+2025-05-10 19:29:22,953 - INFO - Fecha Nacimiento: 1992-09-11
+2025-05-10 19:29:22,953 - INFO - Género: M
+2025-05-10 19:29:22,954 - INFO - 
+=== REGISTROS ENCONTRADOS (3) ===
+2025-05-10 19:29:22,954 - INFO - 
+Registro #1:
+2025-05-10 19:29:22,954 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:22,954 - INFO - 2) Número de Documento: 1019075194
+2025-05-10 19:29:22,954 - INFO - 3) Fecha Nacimiento: 1992-09-11
+2025-05-10 19:29:22,954 - INFO - 4) Género: M
+2025-05-10 19:29:22,954 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:22,954 - INFO - 6) Código CUPS: 890246
+2025-05-10 19:29:22,954 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:22,954 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ GASTROENTEROLOGIA
+2025-05-10 19:29:22,955 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:22,955 - INFO - 
+Registro #2:
+2025-05-10 19:29:22,955 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:22,955 - INFO - 2) Número de Documento: 1019075194
+2025-05-10 19:29:22,955 - INFO - 3) Fecha Nacimiento: 1992-09-11
+2025-05-10 19:29:22,955 - INFO - 4) Género: M
+2025-05-10 19:29:22,955 - INFO - 5) Fecha: 2025-04-24
+2025-05-10 19:29:22,955 - INFO - 6) Código CUPS: 441302
+2025-05-10 19:29:22,955 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:22,955 - INFO -    Servicio: ENDOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:22,955 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:22,956 - INFO - 
+Registro #3:
+2025-05-10 19:29:22,956 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:22,956 - INFO - 2) Número de Documento: 1019075194
+2025-05-10 19:29:22,956 - INFO - 3) Fecha Nacimiento: 1992-09-11
+2025-05-10 19:29:22,956 - INFO - 4) Género: M
+2025-05-10 19:29:22,956 - INFO - 5) Fecha: 2025-04-24
+2025-05-10 19:29:22,956 - INFO - 6) Código CUPS: 441302
+2025-05-10 19:29:22,956 - INFO -    Estado Cita: Programada
+2025-05-10 19:29:22,956 - INFO -    Servicio: ENDOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:22,956 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:22,956 - INFO -  0) \u2713 Factura '130327-FV3052-1019075194-MORIS_JAVIER_GUZMAN_SORIANO' procesada con Exito!
+2025-05-10 19:29:22,958 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:22,959 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\134463-FV3025-79358114-ORLANDO_ROZO_CAICEDO\FV3025.xml' cargado correctamente.
+2025-05-10 19:29:22,960 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:22,960 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:22,960 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:22,960 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:22,961 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:22,961 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:22,963 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\134463-FV3025-79358114-ORLANDO_ROZO_CAICEDO\FV3025.xml'.
+2025-05-10 19:29:22,963 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:22,965 - INFO - Se encontraron 3 registros para el paciente con cédula: 79358114
+2025-05-10 19:29:22,967 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:22,969 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\134463-FV3025-79358114-ORLANDO_ROZO_CAICEDO\FV3025.json' modificado exitosamente.
+2025-05-10 19:29:22,970 - INFO - Se encontraron 3 registros para el paciente con cédula: 79358114
+2025-05-10 19:29:22,972 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:22,973 - INFO - Nombre: ORLANDO ROZO  CAICEDO
+2025-05-10 19:29:22,973 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:22,973 - INFO - Número de Documento: 79358114
+2025-05-10 19:29:22,973 - INFO - Fecha Nacimiento: 1965-08-18
+2025-05-10 19:29:22,973 - INFO - Género: M
+2025-05-10 19:29:22,973 - INFO - 
+=== REGISTROS ENCONTRADOS (3) ===
+2025-05-10 19:29:22,973 - INFO - 
+Registro #1:
+2025-05-10 19:29:22,973 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:22,974 - INFO - 2) Número de Documento: 79358114
+2025-05-10 19:29:22,974 - INFO - 3) Fecha Nacimiento: 1965-08-18
+2025-05-10 19:29:22,974 - INFO - 4) Género: M
+2025-05-10 19:29:22,974 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:22,974 - INFO - 6) Código CUPS: 452305
+2025-05-10 19:29:22,974 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:22,974 - INFO -    Servicio: COLONOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:22,974 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:22,974 - INFO - 
+Registro #2:
+2025-05-10 19:29:22,974 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:22,975 - INFO - 2) Número de Documento: 79358114
+2025-05-10 19:29:22,975 - INFO - 3) Fecha Nacimiento: 1965-08-18
+2025-05-10 19:29:22,975 - INFO - 4) Género: M
+2025-05-10 19:29:22,975 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:22,975 - INFO - 6) Código CUPS: 441302
+2025-05-10 19:29:22,975 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:22,975 - INFO -    Servicio: ENDOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:22,975 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:22,975 - INFO - 
+Registro #3:
+2025-05-10 19:29:22,976 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:22,976 - INFO - 2) Número de Documento: 79358114
+2025-05-10 19:29:22,976 - INFO - 3) Fecha Nacimiento: 1965-08-18
+2025-05-10 19:29:22,976 - INFO - 4) Género: M
+2025-05-10 19:29:22,976 - INFO - 5) Fecha: 2025-04-14
+2025-05-10 19:29:22,976 - INFO - 6) Código CUPS: 890346
+2025-05-10 19:29:22,976 - INFO -    Estado Cita: Programada
+2025-05-10 19:29:22,976 - INFO -    Servicio: CONSULTA POST OPERATORIO GASTROENTEROLOGIA
+2025-05-10 19:29:22,976 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:22,977 - INFO -  1) \u2713 Factura '134463-FV3025-79358114-ORLANDO_ROZO_CAICEDO' procesada con Exito!
+2025-05-10 19:29:22,978 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:22,979 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\155469-FV3057-2579988-MARIA_CRISTINA_CARNEVALI_PARMA\FV3057.xml' cargado correctamente.
+2025-05-10 19:29:22,980 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:22,980 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:22,980 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:22,980 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:22,981 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:22,981 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:22,983 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\155469-FV3057-2579988-MARIA_CRISTINA_CARNEVALI_PARMA\FV3057.xml'.
+2025-05-10 19:29:22,984 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:22,985 - INFO - Se encontraron 2 registros para el paciente con cédula: 2579988
+2025-05-10 19:29:22,987 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:22,989 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\155469-FV3057-2579988-MARIA_CRISTINA_CARNEVALI_PARMA\FV3057.json' modificado exitosamente.
+2025-05-10 19:29:22,991 - INFO - Se encontraron 2 registros para el paciente con cédula: 2579988
+2025-05-10 19:29:22,993 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:22,993 - INFO - Nombre: MARIA CRISTINA CARNEVALI  PARMA
+2025-05-10 19:29:22,993 - INFO - Tipo de Documento: PE
+2025-05-10 19:29:22,993 - INFO - Número de Documento: 2579988
+2025-05-10 19:29:22,994 - INFO - Fecha Nacimiento: 1961-09-03
+2025-05-10 19:29:22,994 - INFO - Género: F
+2025-05-10 19:29:22,994 - INFO - 
+=== REGISTROS ENCONTRADOS (2) ===
+2025-05-10 19:29:22,994 - INFO - 
+Registro #1:
+2025-05-10 19:29:22,994 - INFO - 1) Tipo de Documento: PE
+2025-05-10 19:29:22,994 - INFO - 2) Número de Documento: 2579988
+2025-05-10 19:29:22,994 - INFO - 3) Fecha Nacimiento: 1961-09-03
+2025-05-10 19:29:22,994 - INFO - 4) Género: F
+2025-05-10 19:29:22,994 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:22,994 - INFO - 6) Código CUPS: 890244
+2025-05-10 19:29:22,995 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:22,995 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ ENDOCRINOLOGIA
+2025-05-10 19:29:22,995 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:22,995 - INFO - 
+Registro #2:
+2025-05-10 19:29:22,995 - INFO - 1) Tipo de Documento: PE
+2025-05-10 19:29:22,995 - INFO - 2) Número de Documento: 2579988
+2025-05-10 19:29:22,995 - INFO - 3) Fecha Nacimiento: 1961-09-03
+2025-05-10 19:29:22,995 - INFO - 4) Género: F
+2025-05-10 19:29:22,995 - INFO - 5) Fecha: 2025-04-11
+2025-05-10 19:29:22,995 - INFO - 6) Código CUPS: 890244
+2025-05-10 19:29:22,995 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:22,996 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ ENDOCRINOLOGIA
+2025-05-10 19:29:22,996 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:22,996 - INFO -  2) \u2713 Factura '155469-FV3057-2579988-MARIA_CRISTINA_CARNEVALI_PARMA' procesada con Exito!
+2025-05-10 19:29:22,997 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:22,998 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\196418-FV3054-1018500200-ANTONY_VENEGAS\FV3054.xml' cargado correctamente.
+2025-05-10 19:29:23,004 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,004 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,004 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,004 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,004 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:23,005 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,008 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\196418-FV3054-1018500200-ANTONY_VENEGAS\FV3054.xml'.
+2025-05-10 19:29:23,008 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,010 - INFO - Se encontraron 2 registros para el paciente con cédula: 1018500200
+2025-05-10 19:29:23,012 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,016 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\196418-FV3054-1018500200-ANTONY_VENEGAS\FV3054.json' modificado exitosamente.
+2025-05-10 19:29:23,018 - INFO - Se encontraron 2 registros para el paciente con cédula: 1018500200
+2025-05-10 19:29:23,019 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,019 - INFO - Nombre: ANTONY VENEGAS MAHECHA
+2025-05-10 19:29:23,019 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,019 - INFO - Número de Documento: 1018500200
+2025-05-10 19:29:23,019 - INFO - Fecha Nacimiento: 1998-01-04
+2025-05-10 19:29:23,020 - INFO - Género: M
+2025-05-10 19:29:23,020 - INFO - 
+=== REGISTROS ENCONTRADOS (2) ===
+2025-05-10 19:29:23,020 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,020 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,020 - INFO - 2) Número de Documento: 1018500200
+2025-05-10 19:29:23,020 - INFO - 3) Fecha Nacimiento: 1998-01-04
+2025-05-10 19:29:23,020 - INFO - 4) Género: M
+2025-05-10 19:29:23,020 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,020 - INFO - 6) Código CUPS: 890246
+2025-05-10 19:29:23,020 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,020 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ GASTROENTEROLOGIA
+2025-05-10 19:29:23,021 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,021 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,021 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,021 - INFO - 2) Número de Documento: 1018500200
+2025-05-10 19:29:23,021 - INFO - 3) Fecha Nacimiento: 1998-01-04
+2025-05-10 19:29:23,021 - INFO - 4) Género: M
+2025-05-10 19:29:23,021 - INFO - 5) Fecha: 2025-04-14
+2025-05-10 19:29:23,021 - INFO - 6) Código CUPS: 890206
+2025-05-10 19:29:23,021 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,021 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ NUTRICION Y DIETETICA
+2025-05-10 19:29:23,022 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,022 - INFO -  3) \u2713 Factura '196418-FV3054-1018500200-ANTONY_VENEGAS' procesada con Exito!
+2025-05-10 19:29:23,023 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,024 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\226193-FV3033-79956301-CESAR_ANDRES_RAMIREZ\FV3033.xml' cargado correctamente.
+2025-05-10 19:29:23,025 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,026 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,027 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,027 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,027 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:23,027 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,031 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\226193-FV3033-79956301-CESAR_ANDRES_RAMIREZ\FV3033.xml'.
+2025-05-10 19:29:23,032 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,034 - INFO - Se encontraron 5 registros para el paciente con cédula: 79956301
+2025-05-10 19:29:23,036 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,045 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\226193-FV3033-79956301-CESAR_ANDRES_RAMIREZ\FV3033.json' modificado exitosamente.
+2025-05-10 19:29:23,047 - INFO - Se encontraron 5 registros para el paciente con cédula: 79956301
+2025-05-10 19:29:23,049 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,049 - INFO - Nombre: CESAR  ANDRES RAMIREZ
+2025-05-10 19:29:23,050 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,050 - INFO - Número de Documento: 79956301
+2025-05-10 19:29:23,050 - INFO - Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,050 - INFO - Género: M
+2025-05-10 19:29:23,050 - INFO - 
+=== REGISTROS ENCONTRADOS (5) ===
+2025-05-10 19:29:23,050 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,050 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,050 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,050 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,051 - INFO - 4) Género: M
+2025-05-10 19:29:23,051 - INFO - 5) Fecha: 2025-04-02
+2025-05-10 19:29:23,051 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,051 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,051 - INFO -    Servicio: TERAPIA PISO PELVICO ADICIONAL
+2025-05-10 19:29:23,051 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,051 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,051 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,051 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,052 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,052 - INFO - 4) Género: M
+2025-05-10 19:29:23,052 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:23,052 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,052 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,052 - INFO -    Servicio: TERAPIA PISO PELVICO ADICIONAL
+2025-05-10 19:29:23,052 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,052 - INFO - 
+Registro #3:
+2025-05-10 19:29:23,052 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,052 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,053 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,053 - INFO - 4) Género: M
+2025-05-10 19:29:23,053 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,053 - INFO - 6) Código CUPS: 890294
+2025-05-10 19:29:23,053 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,053 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ UROLOGIA
+2025-05-10 19:29:23,053 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,053 - INFO - 
+Registro #4:
+2025-05-10 19:29:23,053 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,053 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,054 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,054 - INFO - 4) Género: M
+2025-05-10 19:29:23,054 - INFO - 5) Fecha: 2025-04-08
+2025-05-10 19:29:23,054 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,054 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,054 - INFO -    Servicio: TERAPIA PISO PELVICO ADICIONAL
+2025-05-10 19:29:23,054 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,054 - INFO - 
+Registro #5:
+2025-05-10 19:29:23,054 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,054 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,055 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,055 - INFO - 4) Género: M
+2025-05-10 19:29:23,056 - INFO - 5) Fecha: 2025-04-08
+2025-05-10 19:29:23,056 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:23,056 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,056 - INFO -    Servicio: CONSULTA POST OPERATORIO COLOPROCTOLOGIA
+2025-05-10 19:29:23,056 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,056 - INFO -  4) \u2713 Factura '226193-FV3033-79956301-CESAR_ANDRES_RAMIREZ' procesada con Exito!
+2025-05-10 19:29:23,058 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,059 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\229843-FV3053-11349725-DANIEL_VILLAGRAN\FV3053.xml' cargado correctamente.
+2025-05-10 19:29:23,060 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,060 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,060 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,060 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,060 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:23,060 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,068 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\229843-FV3053-11349725-DANIEL_VILLAGRAN\FV3053.xml'.
+2025-05-10 19:29:23,069 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,070 - INFO - Se encontraron 1 registros para el paciente con cédula: 11349725
+2025-05-10 19:29:23,071 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,076 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\229843-FV3053-11349725-DANIEL_VILLAGRAN\FV3053.json' modificado exitosamente.
+2025-05-10 19:29:23,078 - INFO - Se encontraron 1 registros para el paciente con cédula: 11349725
+2025-05-10 19:29:23,079 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,080 - INFO - Nombre: DANIEL BALLEN  VILLAGRAN
+2025-05-10 19:29:23,080 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,080 - INFO - Número de Documento: 11349725
+2025-05-10 19:29:23,080 - INFO - Fecha Nacimiento: 1974-03-05
+2025-05-10 19:29:23,080 - INFO - Género: F
+2025-05-10 19:29:23,080 - INFO - 
+=== REGISTROS ENCONTRADOS (1) ===
+2025-05-10 19:29:23,080 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,080 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,080 - INFO - 2) Número de Documento: 11349725
+2025-05-10 19:29:23,080 - INFO - 3) Fecha Nacimiento: 1974-03-05
+2025-05-10 19:29:23,081 - INFO - 4) Género: F
+2025-05-10 19:29:23,081 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,081 - INFO - 6) Código CUPS: 890246
+2025-05-10 19:29:23,081 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,081 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ GASTROENTEROLOGIA
+2025-05-10 19:29:23,081 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,081 - INFO -  5) \u2713 Factura '229843-FV3053-11349725-DANIEL_VILLAGRAN' procesada con Exito!
+2025-05-10 19:29:23,083 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,084 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\262511-FV3031-1045770509-EDWIN_XAVIER_ACENDRA_RODRIGUEZ\FV3031.xml' cargado correctamente.
+2025-05-10 19:29:23,085 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,085 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,085 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,085 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,085 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:23,085 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,091 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\262511-FV3031-1045770509-EDWIN_XAVIER_ACENDRA_RODRIGUEZ\FV3031.xml'.
+2025-05-10 19:29:23,091 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,093 - INFO - No se encontró ningún paciente con cédula: 1045770509
+2025-05-10 19:29:23,093 - INFO - *** ERROR *** 'Exception' en funcion 'process_fact(doc)': 
+ OUT-> list index out of range
+2025-05-10 19:29:23,094 - INFO - No se encontró ningún paciente con cédula: 1045770509
+2025-05-10 19:29:23,095 - INFO - No se encontraron registros para el paciente.
+2025-05-10 19:29:23,095 - INFO -  6) \u2713 Factura '262511-FV3031-1045770509-EDWIN_XAVIER_ACENDRA_RODRIGUEZ' procesada con Exito!
+2025-05-10 19:29:23,106 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,108 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\33222-FV3041-31894747-MARIA_DEL_SOCORRO_ARIZABALETA_REYES\FV3041.xml' cargado correctamente.
+2025-05-10 19:29:23,109 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,109 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,109 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,109 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:23,110 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-05.
+2025-05-10 19:29:23,110 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,113 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\33222-FV3041-31894747-MARIA_DEL_SOCORRO_ARIZABALETA_REYES\FV3041.xml'.
+2025-05-10 19:29:23,113 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,115 - INFO - Se encontraron 6 registros para el paciente con cédula: 31894747
+2025-05-10 19:29:23,120 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:23,124 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\33222-FV3041-31894747-MARIA_DEL_SOCORRO_ARIZABALETA_REYES\FV3041.json' modificado exitosamente.
+2025-05-10 19:29:23,126 - INFO - Se encontraron 6 registros para el paciente con cédula: 31894747
+2025-05-10 19:29:23,129 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,129 - INFO - Nombre: MARIA DEL SOCORRO ARIZABALETA REYES
+2025-05-10 19:29:23,130 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,130 - INFO - Número de Documento: 31894747
+2025-05-10 19:29:23,130 - INFO - Fecha Nacimiento: 1962-03-20
+2025-05-10 19:29:23,130 - INFO - Género: F
+2025-05-10 19:29:23,130 - INFO - 
+=== REGISTROS ENCONTRADOS (6) ===
+2025-05-10 19:29:23,130 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,130 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,130 - INFO - 2) Número de Documento: 31894747
+2025-05-10 19:29:23,130 - INFO - 3) Fecha Nacimiento: 1962-03-20
+2025-05-10 19:29:23,130 - INFO - 4) Género: F
+2025-05-10 19:29:23,131 - INFO - 5) Fecha: 2025-04-05
+2025-05-10 19:29:23,131 - INFO - 6) Código CUPS: 482701
+2025-05-10 19:29:23,131 - INFO -    Estado Cita: Programada
+2025-05-10 19:29:23,131 - INFO -    Servicio: MANOMETRIA ANORECTAL
+2025-05-10 19:29:23,131 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,131 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,131 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,131 - INFO - 2) Número de Documento: 31894747
+2025-05-10 19:29:23,131 - INFO - 3) Fecha Nacimiento: 1962-03-20
+2025-05-10 19:29:23,131 - INFO - 4) Género: F
+2025-05-10 19:29:23,132 - INFO - 5) Fecha: 2025-04-21
+2025-05-10 19:29:23,132 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:23,132 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,132 - INFO -    Servicio: CONSULTA POST OPERATORIO COLOPROCTOLOGIA
+2025-05-10 19:29:23,132 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,132 - INFO - 
+Registro #3:
+2025-05-10 19:29:23,132 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,133 - INFO - 2) Número de Documento: 31894747
+2025-05-10 19:29:23,133 - INFO - 3) Fecha Nacimiento: 1962-03-20
+2025-05-10 19:29:23,133 - INFO - 4) Género: F
+2025-05-10 19:29:23,133 - INFO - 5) Fecha: 2025-04-21
+2025-05-10 19:29:23,133 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:23,133 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,133 - INFO -    Servicio: CONSULTA POST OPERATORIO COLOPROCTOLOGIA
+2025-05-10 19:29:23,133 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,133 - INFO - 
+Registro #4:
+2025-05-10 19:29:23,133 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,134 - INFO - 2) Número de Documento: 31894747
+2025-05-10 19:29:23,134 - INFO - 3) Fecha Nacimiento: 1962-03-20
+2025-05-10 19:29:23,134 - INFO - 4) Género: F
+2025-05-10 19:29:23,134 - INFO - 5) Fecha: 2025-04-23
+2025-05-10 19:29:23,134 - INFO - 6) Código CUPS: nan
+2025-05-10 19:29:23,134 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,134 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ TERAPIA DE TERAPIA DE PISO PELVICO
+2025-05-10 19:29:23,134 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,134 - INFO - 
+Registro #5:
+2025-05-10 19:29:23,134 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,134 - INFO - 2) Número de Documento: 31894747
+2025-05-10 19:29:23,135 - INFO - 3) Fecha Nacimiento: 1962-03-20
+2025-05-10 19:29:23,135 - INFO - 4) Género: F
+2025-05-10 19:29:23,135 - INFO - 5) Fecha: 2025-04-30
+2025-05-10 19:29:23,135 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,135 - INFO -    Estado Cita: Programada
+2025-05-10 19:29:23,135 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:23,135 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,135 - INFO - 
+Registro #6:
+2025-05-10 19:29:23,135 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,135 - INFO - 2) Número de Documento: 31894747
+2025-05-10 19:29:23,136 - INFO - 3) Fecha Nacimiento: 1962-03-20
+2025-05-10 19:29:23,136 - INFO - 4) Género: F
+2025-05-10 19:29:23,136 - INFO - 5) Fecha: 2025-04-30
+2025-05-10 19:29:23,136 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,136 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,136 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:23,136 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,136 - INFO -  7) \u2713 Factura '33222-FV3041-31894747-MARIA_DEL_SOCORRO_ARIZABALETA_REYES' procesada con Exito!
+2025-05-10 19:29:23,138 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,139 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\387988-FV3043-52709537-CAROLINA_CASTELBLANCO_GOMEZ\FV3043.xml' cargado correctamente.
+2025-05-10 19:29:23,140 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,140 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,140 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,140 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:23,141 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-05.
+2025-05-10 19:29:23,141 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,144 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\387988-FV3043-52709537-CAROLINA_CASTELBLANCO_GOMEZ\FV3043.xml'.
+2025-05-10 19:29:23,144 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,146 - INFO - Se encontraron 4 registros para el paciente con cédula: 52709537
+2025-05-10 19:29:23,148 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:23,150 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\387988-FV3043-52709537-CAROLINA_CASTELBLANCO_GOMEZ\FV3043.json' modificado exitosamente.
+2025-05-10 19:29:23,152 - INFO - Se encontraron 4 registros para el paciente con cédula: 52709537
+2025-05-10 19:29:23,154 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,154 - INFO - Nombre: CAROLINA CASTELBLANCO   GOMEZ
+2025-05-10 19:29:23,154 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,154 - INFO - Número de Documento: 52709537
+2025-05-10 19:29:23,155 - INFO - Fecha Nacimiento: 1980-05-22
+2025-05-10 19:29:23,155 - INFO - Género: F
+2025-05-10 19:29:23,155 - INFO - 
+=== REGISTROS ENCONTRADOS (4) ===
+2025-05-10 19:29:23,155 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,155 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,155 - INFO - 2) Número de Documento: 52709537
+2025-05-10 19:29:23,155 - INFO - 3) Fecha Nacimiento: 1980-05-22
+2025-05-10 19:29:23,155 - INFO - 4) Género: F
+2025-05-10 19:29:23,155 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,155 - INFO - 6) Código CUPS: 890206
+2025-05-10 19:29:23,155 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,156 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ NUTRICION Y DIETETICA
+2025-05-10 19:29:23,156 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,156 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,156 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,156 - INFO - 2) Número de Documento: 52709537
+2025-05-10 19:29:23,156 - INFO - 3) Fecha Nacimiento: 1980-05-22
+2025-05-10 19:29:23,156 - INFO - 4) Género: F
+2025-05-10 19:29:23,156 - INFO - 5) Fecha: 2025-04-08
+2025-05-10 19:29:23,156 - INFO - 6) Código CUPS: 890346
+2025-05-10 19:29:23,156 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,157 - INFO -    Servicio: CONSULTA POST OPERATORIO GASTROENTEROLOGIA
+2025-05-10 19:29:23,157 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,157 - INFO - 
+Registro #3:
+2025-05-10 19:29:23,157 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,157 - INFO - 2) Número de Documento: 52709537
+2025-05-10 19:29:23,157 - INFO - 3) Fecha Nacimiento: 1980-05-22
+2025-05-10 19:29:23,157 - INFO - 4) Género: F
+2025-05-10 19:29:23,158 - INFO - 5) Fecha: 2025-04-10
+2025-05-10 19:29:23,158 - INFO - 6) Código CUPS: 890261
+2025-05-10 19:29:23,158 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,158 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ DEPORTOLOGIA
+2025-05-10 19:29:23,158 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,158 - INFO - 
+Registro #4:
+2025-05-10 19:29:23,158 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,158 - INFO - 2) Número de Documento: 52709537
+2025-05-10 19:29:23,158 - INFO - 3) Fecha Nacimiento: 1980-05-22
+2025-05-10 19:29:23,158 - INFO - 4) Género: F
+2025-05-10 19:29:23,159 - INFO - 5) Fecha: 2025-04-16
+2025-05-10 19:29:23,159 - INFO - 6) Código CUPS: 890306
+2025-05-10 19:29:23,159 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,159 - INFO -    Servicio: CONSULTA DE CONTROL NUTRICION Y DIETETICA
+2025-05-10 19:29:23,159 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,160 - INFO -  8) \u2713 Factura '387988-FV3043-52709537-CAROLINA_CASTELBLANCO_GOMEZ' procesada con Exito!
+2025-05-10 19:29:23,162 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,164 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\423178-FV3055-1018500200-ANTONY_VENEGAS\FV3055.xml' cargado correctamente.
+2025-05-10 19:29:23,165 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,166 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,166 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,166 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,166 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:23,166 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,182 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\423178-FV3055-1018500200-ANTONY_VENEGAS\FV3055.xml'.
+2025-05-10 19:29:23,182 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,184 - INFO - Se encontraron 2 registros para el paciente con cédula: 1018500200
+2025-05-10 19:29:23,185 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,189 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\423178-FV3055-1018500200-ANTONY_VENEGAS\FV3055.json' modificado exitosamente.
+2025-05-10 19:29:23,191 - INFO - Se encontraron 2 registros para el paciente con cédula: 1018500200
+2025-05-10 19:29:23,192 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,192 - INFO - Nombre: ANTONY VENEGAS MAHECHA
+2025-05-10 19:29:23,192 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,192 - INFO - Número de Documento: 1018500200
+2025-05-10 19:29:23,192 - INFO - Fecha Nacimiento: 1998-01-04
+2025-05-10 19:29:23,193 - INFO - Género: M
+2025-05-10 19:29:23,193 - INFO - 
+=== REGISTROS ENCONTRADOS (2) ===
+2025-05-10 19:29:23,193 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,193 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,193 - INFO - 2) Número de Documento: 1018500200
+2025-05-10 19:29:23,193 - INFO - 3) Fecha Nacimiento: 1998-01-04
+2025-05-10 19:29:23,193 - INFO - 4) Género: M
+2025-05-10 19:29:23,193 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,194 - INFO - 6) Código CUPS: 890246
+2025-05-10 19:29:23,194 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,196 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ GASTROENTEROLOGIA
+2025-05-10 19:29:23,196 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,197 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,197 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,197 - INFO - 2) Número de Documento: 1018500200
+2025-05-10 19:29:23,197 - INFO - 3) Fecha Nacimiento: 1998-01-04
+2025-05-10 19:29:23,197 - INFO - 4) Género: M
+2025-05-10 19:29:23,197 - INFO - 5) Fecha: 2025-04-14
+2025-05-10 19:29:23,197 - INFO - 6) Código CUPS: 890206
+2025-05-10 19:29:23,197 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,197 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ NUTRICION Y DIETETICA
+2025-05-10 19:29:23,197 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,198 - INFO -  9) \u2713 Factura '423178-FV3055-1018500200-ANTONY_VENEGAS' procesada con Exito!
+2025-05-10 19:29:23,200 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,201 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\433877-FV3026-79358114-ORLANDO_ROZO_CAICEDO\FV3026.xml' cargado correctamente.
+2025-05-10 19:29:23,202 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,202 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,203 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,203 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,203 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:23,203 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,206 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\433877-FV3026-79358114-ORLANDO_ROZO_CAICEDO\FV3026.xml'.
+2025-05-10 19:29:23,206 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,208 - INFO - Se encontraron 3 registros para el paciente con cédula: 79358114
+2025-05-10 19:29:23,209 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,213 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\433877-FV3026-79358114-ORLANDO_ROZO_CAICEDO\FV3026.json' modificado exitosamente.
+2025-05-10 19:29:23,215 - INFO - Se encontraron 3 registros para el paciente con cédula: 79358114
+2025-05-10 19:29:23,217 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,217 - INFO - Nombre: ORLANDO ROZO  CAICEDO
+2025-05-10 19:29:23,218 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,218 - INFO - Número de Documento: 79358114
+2025-05-10 19:29:23,218 - INFO - Fecha Nacimiento: 1965-08-18
+2025-05-10 19:29:23,218 - INFO - Género: M
+2025-05-10 19:29:23,218 - INFO - 
+=== REGISTROS ENCONTRADOS (3) ===
+2025-05-10 19:29:23,218 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,218 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,218 - INFO - 2) Número de Documento: 79358114
+2025-05-10 19:29:23,218 - INFO - 3) Fecha Nacimiento: 1965-08-18
+2025-05-10 19:29:23,218 - INFO - 4) Género: M
+2025-05-10 19:29:23,218 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:23,219 - INFO - 6) Código CUPS: 452305
+2025-05-10 19:29:23,219 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,219 - INFO -    Servicio: COLONOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:23,219 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,219 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,219 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,219 - INFO - 2) Número de Documento: 79358114
+2025-05-10 19:29:23,219 - INFO - 3) Fecha Nacimiento: 1965-08-18
+2025-05-10 19:29:23,219 - INFO - 4) Género: M
+2025-05-10 19:29:23,219 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:23,220 - INFO - 6) Código CUPS: 441302
+2025-05-10 19:29:23,220 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,220 - INFO -    Servicio: ENDOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:23,224 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,224 - INFO - 
+Registro #3:
+2025-05-10 19:29:23,224 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,224 - INFO - 2) Número de Documento: 79358114
+2025-05-10 19:29:23,225 - INFO - 3) Fecha Nacimiento: 1965-08-18
+2025-05-10 19:29:23,225 - INFO - 4) Género: M
+2025-05-10 19:29:23,225 - INFO - 5) Fecha: 2025-04-14
+2025-05-10 19:29:23,225 - INFO - 6) Código CUPS: 890346
+2025-05-10 19:29:23,225 - INFO -    Estado Cita: Programada
+2025-05-10 19:29:23,225 - INFO -    Servicio: CONSULTA POST OPERATORIO GASTROENTEROLOGIA
+2025-05-10 19:29:23,225 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,225 - INFO -  10) \u2713 Factura '433877-FV3026-79358114-ORLANDO_ROZO_CAICEDO' procesada con Exito!
+2025-05-10 19:29:23,228 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,229 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\46510-FV3048-1014252463-YULI_ANDREA_VIVAS_MORENO\FV3048.xml' cargado correctamente.
+2025-05-10 19:29:23,229 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,229 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,230 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,230 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,230 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:23,230 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,233 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\46510-FV3048-1014252463-YULI_ANDREA_VIVAS_MORENO\FV3048.xml'.
+2025-05-10 19:29:23,233 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,241 - INFO - Se encontraron 1 registros para el paciente con cédula: 1014252463
+2025-05-10 19:29:23,242 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,246 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\46510-FV3048-1014252463-YULI_ANDREA_VIVAS_MORENO\FV3048.json' modificado exitosamente.
+2025-05-10 19:29:23,247 - INFO - Se encontraron 1 registros para el paciente con cédula: 1014252463
+2025-05-10 19:29:23,248 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,248 - INFO - Nombre: YULI ANDREA VIVAS MORENO
+2025-05-10 19:29:23,249 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,249 - INFO - Número de Documento: 1014252463
+2025-05-10 19:29:23,249 - INFO - Fecha Nacimiento: 1994-03-05
+2025-05-10 19:29:23,249 - INFO - Género: F
+2025-05-10 19:29:23,249 - INFO - 
+=== REGISTROS ENCONTRADOS (1) ===
+2025-05-10 19:29:23,249 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,249 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,249 - INFO - 2) Número de Documento: 1014252463
+2025-05-10 19:29:23,249 - INFO - 3) Fecha Nacimiento: 1994-03-05
+2025-05-10 19:29:23,249 - INFO - 4) Género: F
+2025-05-10 19:29:23,250 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,250 - INFO - 6) Código CUPS: 890306
+2025-05-10 19:29:23,250 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,250 - INFO -    Servicio: CONSULTA DE CONTROL NUTRICION Y DIETETICA
+2025-05-10 19:29:23,250 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,250 - INFO -  11) \u2713 Factura '46510-FV3048-1014252463-YULI_ANDREA_VIVAS_MORENO' procesada con Exito!
+2025-05-10 19:29:23,253 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,254 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\531665-FV3032-79956301-CESAR_ANDRES_RAMIREZ\FV3032.xml' cargado correctamente.
+2025-05-10 19:29:23,255 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,255 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,255 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,255 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,255 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:23,255 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,259 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\531665-FV3032-79956301-CESAR_ANDRES_RAMIREZ\FV3032.xml'.
+2025-05-10 19:29:23,259 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,261 - INFO - Se encontraron 5 registros para el paciente con cédula: 79956301
+2025-05-10 19:29:23,264 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,270 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\531665-FV3032-79956301-CESAR_ANDRES_RAMIREZ\FV3032.json' modificado exitosamente.
+2025-05-10 19:29:23,272 - INFO - Se encontraron 5 registros para el paciente con cédula: 79956301
+2025-05-10 19:29:23,274 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,274 - INFO - Nombre: CESAR  ANDRES RAMIREZ
+2025-05-10 19:29:23,274 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,274 - INFO - Número de Documento: 79956301
+2025-05-10 19:29:23,275 - INFO - Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,275 - INFO - Género: M
+2025-05-10 19:29:23,275 - INFO - 
+=== REGISTROS ENCONTRADOS (5) ===
+2025-05-10 19:29:23,275 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,275 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,275 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,275 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,275 - INFO - 4) Género: M
+2025-05-10 19:29:23,275 - INFO - 5) Fecha: 2025-04-02
+2025-05-10 19:29:23,276 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,276 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,276 - INFO -    Servicio: TERAPIA PISO PELVICO ADICIONAL
+2025-05-10 19:29:23,276 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,276 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,276 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,276 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,276 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,276 - INFO - 4) Género: M
+2025-05-10 19:29:23,277 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:23,277 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,277 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,277 - INFO -    Servicio: TERAPIA PISO PELVICO ADICIONAL
+2025-05-10 19:29:23,277 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,277 - INFO - 
+Registro #3:
+2025-05-10 19:29:23,277 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,277 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,277 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,277 - INFO - 4) Género: M
+2025-05-10 19:29:23,277 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,278 - INFO - 6) Código CUPS: 890294
+2025-05-10 19:29:23,278 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,278 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ UROLOGIA
+2025-05-10 19:29:23,278 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,278 - INFO - 
+Registro #4:
+2025-05-10 19:29:23,278 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,278 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,279 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,279 - INFO - 4) Género: M
+2025-05-10 19:29:23,279 - INFO - 5) Fecha: 2025-04-08
+2025-05-10 19:29:23,279 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,279 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,279 - INFO -    Servicio: TERAPIA PISO PELVICO ADICIONAL
+2025-05-10 19:29:23,279 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,279 - INFO - 
+Registro #5:
+2025-05-10 19:29:23,279 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,279 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,279 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,280 - INFO - 4) Género: M
+2025-05-10 19:29:23,280 - INFO - 5) Fecha: 2025-04-08
+2025-05-10 19:29:23,280 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:23,280 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,280 - INFO -    Servicio: CONSULTA POST OPERATORIO COLOPROCTOLOGIA
+2025-05-10 19:29:23,280 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,280 - INFO -  12) \u2713 Factura '531665-FV3032-79956301-CESAR_ANDRES_RAMIREZ' procesada con Exito!
+2025-05-10 19:29:23,283 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,284 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\53268-FV3038-1074136856-CRISTIAN_ALEJANDRO_ROMERO_RUIZ\FV3038.xml' cargado correctamente.
+2025-05-10 19:29:23,285 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,285 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,285 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,286 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:23,286 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-05.
+2025-05-10 19:29:23,286 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,289 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\53268-FV3038-1074136856-CRISTIAN_ALEJANDRO_ROMERO_RUIZ\FV3038.xml'.
+2025-05-10 19:29:23,289 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,292 - INFO - Se encontraron 1 registros para el paciente con cédula: 1074136856
+2025-05-10 19:29:23,293 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:23,297 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\53268-FV3038-1074136856-CRISTIAN_ALEJANDRO_ROMERO_RUIZ\FV3038.json' modificado exitosamente.
+2025-05-10 19:29:23,299 - INFO - Se encontraron 1 registros para el paciente con cédula: 1074136856
+2025-05-10 19:29:23,300 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,300 - INFO - Nombre: CRISTIAN ALEJANDRO ROMERO  RUIZ
+2025-05-10 19:29:23,300 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,300 - INFO - Número de Documento: 1074136856
+2025-05-10 19:29:23,300 - INFO - Fecha Nacimiento: 1999-06-14
+2025-05-10 19:29:23,300 - INFO - Género: M
+2025-05-10 19:29:23,300 - INFO - 
+=== REGISTROS ENCONTRADOS (1) ===
+2025-05-10 19:29:23,301 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,301 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,301 - INFO - 2) Número de Documento: 1074136856
+2025-05-10 19:29:23,301 - INFO - 3) Fecha Nacimiento: 1999-06-14
+2025-05-10 19:29:23,301 - INFO - 4) Género: M
+2025-05-10 19:29:23,301 - INFO - 5) Fecha: 2025-04-05
+2025-05-10 19:29:23,301 - INFO - 6) Código CUPS: 452305
+2025-05-10 19:29:23,301 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,301 - INFO -    Servicio: COLONOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:23,301 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,302 - INFO -  13) \u2713 Factura '53268-FV3038-1074136856-CRISTIAN_ALEJANDRO_ROMERO_RUIZ' procesada con Exito!
+2025-05-10 19:29:23,304 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,306 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\554318-FV3045-80816973-WALTER_JOSE_SAAVEDRA_TRONCOSO\FV3045.xml' cargado correctamente.
+2025-05-10 19:29:23,306 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,306 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,307 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,307 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,307 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:23,307 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,314 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\554318-FV3045-80816973-WALTER_JOSE_SAAVEDRA_TRONCOSO\FV3045.xml'.
+2025-05-10 19:29:23,314 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,316 - INFO - Se encontraron 2 registros para el paciente con cédula: 80816973
+2025-05-10 19:29:23,317 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,322 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\554318-FV3045-80816973-WALTER_JOSE_SAAVEDRA_TRONCOSO\FV3045.json' modificado exitosamente.
+2025-05-10 19:29:23,324 - INFO - Se encontraron 2 registros para el paciente con cédula: 80816973
+2025-05-10 19:29:23,326 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,326 - INFO - Nombre: WALTER  JOSE SAAVEDRA TRONCOSO
+2025-05-10 19:29:23,326 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,326 - INFO - Número de Documento: 80816973
+2025-05-10 19:29:23,327 - INFO - Fecha Nacimiento: 1984-09-05
+2025-05-10 19:29:23,327 - INFO - Género: M
+2025-05-10 19:29:23,327 - INFO - 
+=== REGISTROS ENCONTRADOS (2) ===
+2025-05-10 19:29:23,327 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,327 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,327 - INFO - 2) Número de Documento: 80816973
+2025-05-10 19:29:23,327 - INFO - 3) Fecha Nacimiento: 1984-09-05
+2025-05-10 19:29:23,327 - INFO - 4) Género: M
+2025-05-10 19:29:23,327 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,327 - INFO - 6) Código CUPS: 890206
+2025-05-10 19:29:23,328 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,328 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ NUTRICION Y DIETETICA
+2025-05-10 19:29:23,328 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,328 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,328 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,328 - INFO - 2) Número de Documento: 80816973
+2025-05-10 19:29:23,328 - INFO - 3) Fecha Nacimiento: 1984-09-05
+2025-05-10 19:29:23,328 - INFO - 4) Género: M
+2025-05-10 19:29:23,328 - INFO - 5) Fecha: 2025-04-25
+2025-05-10 19:29:23,329 - INFO - 6) Código CUPS: 482701
+2025-05-10 19:29:23,329 - INFO -    Estado Cita: Programada
+2025-05-10 19:29:23,329 - INFO -    Servicio: MANOMETRIA ANORECTAL
+2025-05-10 19:29:23,329 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,329 - INFO -  14) \u2713 Factura '554318-FV3045-80816973-WALTER_JOSE_SAAVEDRA_TRONCOSO' procesada con Exito!
+2025-05-10 19:29:23,332 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,334 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\557136-FV3035-28305245-RITA_DELIA_MATEUS_DE_MATEUS\FV3035.xml' cargado correctamente.
+2025-05-10 19:29:23,336 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,336 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,336 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,336 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,337 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:23,342 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,368 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\557136-FV3035-28305245-RITA_DELIA_MATEUS_DE_MATEUS\FV3035.xml'.
+2025-05-10 19:29:23,368 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,370 - INFO - Se encontraron 2 registros para el paciente con cédula: 28305245
+2025-05-10 19:29:23,371 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,384 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\557136-FV3035-28305245-RITA_DELIA_MATEUS_DE_MATEUS\FV3035.json' modificado exitosamente.
+2025-05-10 19:29:23,386 - INFO - Se encontraron 2 registros para el paciente con cédula: 28305245
+2025-05-10 19:29:23,387 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,387 - INFO - Nombre: RITA DELIA MATEUS DE MATEUS
+2025-05-10 19:29:23,387 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,387 - INFO - Número de Documento: 28305245
+2025-05-10 19:29:23,387 - INFO - Fecha Nacimiento: 1935-10-07
+2025-05-10 19:29:23,387 - INFO - Género: F
+2025-05-10 19:29:23,387 - INFO - 
+=== REGISTROS ENCONTRADOS (2) ===
+2025-05-10 19:29:23,388 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,388 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,388 - INFO - 2) Número de Documento: 28305245
+2025-05-10 19:29:23,388 - INFO - 3) Fecha Nacimiento: 1935-10-07
+2025-05-10 19:29:23,388 - INFO - 4) Género: F
+2025-05-10 19:29:23,388 - INFO - 5) Fecha: 2025-04-02
+2025-05-10 19:29:23,388 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,388 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,388 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:23,388 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,388 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,389 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,389 - INFO - 2) Número de Documento: 28305245
+2025-05-10 19:29:23,389 - INFO - 3) Fecha Nacimiento: 1935-10-07
+2025-05-10 19:29:23,389 - INFO - 4) Género: F
+2025-05-10 19:29:23,389 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:23,389 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,389 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,389 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:23,390 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,390 - INFO -  15) \u2713 Factura '557136-FV3035-28305245-RITA_DELIA_MATEUS_DE_MATEUS' procesada con Exito!
+2025-05-10 19:29:23,394 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,395 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\576919-FV3024-1106740546-JUAN_FELIPE_RUBIO_RAMIREZ\FV3024.xml' cargado correctamente.
+2025-05-10 19:29:23,395 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,396 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,396 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,396 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,396 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:23,396 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,402 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\576919-FV3024-1106740546-JUAN_FELIPE_RUBIO_RAMIREZ\FV3024.xml'.
+2025-05-10 19:29:23,402 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,418 - INFO - Se encontraron 1 registros para el paciente con cédula: 1106740546
+2025-05-10 19:29:23,420 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,482 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\576919-FV3024-1106740546-JUAN_FELIPE_RUBIO_RAMIREZ\FV3024.json' modificado exitosamente.
+2025-05-10 19:29:23,484 - INFO - Se encontraron 1 registros para el paciente con cédula: 1106740546
+2025-05-10 19:29:23,485 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,485 - INFO - Nombre: JUAN FELIPE RUBIO  RAMIREZ
+2025-05-10 19:29:23,485 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,485 - INFO - Número de Documento: 1106740546
+2025-05-10 19:29:23,485 - INFO - Fecha Nacimiento: 1993-12-21
+2025-05-10 19:29:23,485 - INFO - Género: M
+2025-05-10 19:29:23,485 - INFO - 
+=== REGISTROS ENCONTRADOS (1) ===
+2025-05-10 19:29:23,485 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,486 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,486 - INFO - 2) Número de Documento: 1106740546
+2025-05-10 19:29:23,486 - INFO - 3) Fecha Nacimiento: 1993-12-21
+2025-05-10 19:29:23,486 - INFO - 4) Género: M
+2025-05-10 19:29:23,486 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:23,486 - INFO - 6) Código CUPS: 890241
+2025-05-10 19:29:23,486 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,486 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ COLOPROCTOLOGIA
+2025-05-10 19:29:23,486 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,486 - INFO -  16) \u2713 Factura '576919-FV3024-1106740546-JUAN_FELIPE_RUBIO_RAMIREZ' procesada con Exito!
+2025-05-10 19:29:23,489 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,490 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\5919-FV3029-1144100322-DANIEL_ORTEGA_ACOSTA\FV3029.xml' cargado correctamente.
+2025-05-10 19:29:23,491 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,491 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,492 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,492 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,492 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:23,492 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,499 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\5919-FV3029-1144100322-DANIEL_ORTEGA_ACOSTA\FV3029.xml'.
+2025-05-10 19:29:23,500 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,501 - INFO - Se encontraron 1 registros para el paciente con cédula: 1144100322
+2025-05-10 19:29:23,503 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,503 - ERROR - invalid literal for int() with base 10: 'M'
+2025-05-10 19:29:23,505 - INFO - Se encontraron 1 registros para el paciente con cédula: 1144100322
+2025-05-10 19:29:23,509 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\5919-FV3029-1144100322-DANIEL_ORTEGA_ACOSTA\FV3029.json' modificado exitosamente.
+2025-05-10 19:29:23,512 - INFO - Se encontraron 1 registros para el paciente con cédula: 1144100322
+2025-05-10 19:29:23,514 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,514 - INFO - Nombre: DANIEL ORTEGA ACOSTA
+2025-05-10 19:29:23,514 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,514 - INFO - Número de Documento: 1144100322
+2025-05-10 19:29:23,514 - INFO - Fecha Nacimiento: 1998-01-17
+2025-05-10 19:29:23,514 - INFO - Género: M
+2025-05-10 19:29:23,514 - INFO - 
+=== REGISTROS ENCONTRADOS (1) ===
+2025-05-10 19:29:23,514 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,515 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,515 - INFO - 2) Número de Documento: 1144100322
+2025-05-10 19:29:23,515 - INFO - 3) Fecha Nacimiento: 1998-01-17
+2025-05-10 19:29:23,515 - INFO - 4) Género: M
+2025-05-10 19:29:23,515 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:23,515 - INFO - 6) Código CUPS: 492102
+2025-05-10 19:29:23,515 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,515 - INFO -    Servicio: ANOSCOPIA CON MAPEO TERAPEUTICA
+2025-05-10 19:29:23,515 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,515 - INFO -  17) \u2713 Factura '5919-FV3029-1144100322-DANIEL_ORTEGA_ACOSTA' procesada con Exito!
+2025-05-10 19:29:23,520 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,521 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\670485-FV3044-53095936-Vivien_Garavito\FV3044.xml' cargado correctamente.
+2025-05-10 19:29:23,522 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,522 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,522 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,522 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,523 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:23,523 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,533 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\670485-FV3044-53095936-Vivien_Garavito\FV3044.xml'.
+2025-05-10 19:29:23,533 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,535 - INFO - No se encontró ningún paciente con cédula: 53095936
+2025-05-10 19:29:23,535 - INFO - *** ERROR *** 'Exception' en funcion 'process_fact(doc)': 
+ OUT-> list index out of range
+2025-05-10 19:29:23,537 - INFO - No se encontró ningún paciente con cédula: 53095936
+2025-05-10 19:29:23,537 - INFO - No se encontraron registros para el paciente.
+2025-05-10 19:29:23,537 - INFO -  18) \u2713 Factura '670485-FV3044-53095936-Vivien_Garavito' procesada con Exito!
+2025-05-10 19:29:23,540 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,541 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\69270-FV3051-1020807649-NICOLE_OLIVARES_YEPES\FV3051.xml' cargado correctamente.
+2025-05-10 19:29:23,542 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,542 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,543 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,543 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,543 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:23,543 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,550 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\69270-FV3051-1020807649-NICOLE_OLIVARES_YEPES\FV3051.xml'.
+2025-05-10 19:29:23,550 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,552 - INFO - Se encontraron 2 registros para el paciente con cédula: 1020807649
+2025-05-10 19:29:23,554 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,557 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\69270-FV3051-1020807649-NICOLE_OLIVARES_YEPES\FV3051.json' modificado exitosamente.
+2025-05-10 19:29:23,559 - INFO - Se encontraron 2 registros para el paciente con cédula: 1020807649
+2025-05-10 19:29:23,560 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,561 - INFO - Nombre: NICOLE CAROLINA OLIVARES  YEPES
+2025-05-10 19:29:23,561 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,561 - INFO - Número de Documento: 1020807649
+2025-05-10 19:29:23,561 - INFO - Fecha Nacimiento: 1995-08-05
+2025-05-10 19:29:23,561 - INFO - Género: F
+2025-05-10 19:29:23,561 - INFO - 
+=== REGISTROS ENCONTRADOS (2) ===
+2025-05-10 19:29:23,561 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,561 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,561 - INFO - 2) Número de Documento: 1020807649
+2025-05-10 19:29:23,561 - INFO - 3) Fecha Nacimiento: 1995-08-05
+2025-05-10 19:29:23,562 - INFO - 4) Género: F
+2025-05-10 19:29:23,562 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,562 - INFO - 6) Código CUPS: 890206
+2025-05-10 19:29:23,562 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,562 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ NUTRICION Y DIETETICA
+2025-05-10 19:29:23,562 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,562 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,562 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,563 - INFO - 2) Número de Documento: 1020807649
+2025-05-10 19:29:23,563 - INFO - 3) Fecha Nacimiento: 1995-08-05
+2025-05-10 19:29:23,563 - INFO - 4) Género: F
+2025-05-10 19:29:23,563 - INFO - 5) Fecha: 2025-04-15
+2025-05-10 19:29:23,563 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:23,563 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:23,563 - INFO -    Servicio: CONSULTA DE CONTROL COLOPROCTOLOGIA
+2025-05-10 19:29:23,563 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,563 - INFO -  19) \u2713 Factura '69270-FV3051-1020807649-NICOLE_OLIVARES_YEPES' procesada con Exito!
+2025-05-10 19:29:23,567 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,568 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\712804-FV3047-26983172-CAROLINA_PINTO_OSPINO\FV3047.xml' cargado correctamente.
+2025-05-10 19:29:23,568 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,569 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,569 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,569 - INFO - Fecha encontrada en el XML: 2025-04-26
+2025-05-10 19:29:23,569 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-26.
+2025-05-10 19:29:23,569 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,574 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\712804-FV3047-26983172-CAROLINA_PINTO_OSPINO\FV3047.xml'.
+2025-05-10 19:29:23,574 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,576 - INFO - Se encontraron 6 registros para el paciente con cédula: 26983172
+2025-05-10 19:29:23,579 - INFO - Fecha encontrada en el XML: 2025-04-26
+2025-05-10 19:29:23,584 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\712804-FV3047-26983172-CAROLINA_PINTO_OSPINO\FV3047.json' modificado exitosamente.
+2025-05-10 19:29:23,585 - INFO - Se encontraron 6 registros para el paciente con cédula: 26983172
+2025-05-10 19:29:23,588 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,588 - INFO - Nombre: CAROLINA   PINTO OSPINO
+2025-05-10 19:29:23,588 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,588 - INFO - Número de Documento: 26983172
+2025-05-10 19:29:23,588 - INFO - Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:23,588 - INFO - Género: F
+2025-05-10 19:29:23,588 - INFO - 
+=== REGISTROS ENCONTRADOS (6) ===
+2025-05-10 19:29:23,589 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,589 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,589 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:23,589 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:23,589 - INFO - 4) Género: F
+2025-05-10 19:29:23,589 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,589 - INFO - 6) Código CUPS: 494005
+2025-05-10 19:29:23,589 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,589 - INFO -    Servicio: RESECCION DE HEMORROIDES MIXTAS
+2025-05-10 19:29:23,589 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,589 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,590 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,590 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:23,590 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:23,590 - INFO - 4) Género: F
+2025-05-10 19:29:23,590 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,590 - INFO - 6) Código CUPS: nan
+2025-05-10 19:29:23,590 - INFO -    Estado Cita: Programada
+2025-05-10 19:29:23,590 - INFO -    Servicio: PINZA LIGASURE SMALL JAW
+2025-05-10 19:29:23,590 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,590 - INFO - 
+Registro #3:
+2025-05-10 19:29:23,590 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,591 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:23,591 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:23,591 - INFO - 4) Género: F
+2025-05-10 19:29:23,591 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,591 - INFO - 6) Código CUPS: 890241
+2025-05-10 19:29:23,591 - INFO -    Estado Cita: Programada
+2025-05-10 19:29:23,591 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ COLOPROCTOLOGIA
+2025-05-10 19:29:23,591 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,591 - INFO - 
+Registro #4:
+2025-05-10 19:29:23,591 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,591 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:23,592 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:23,592 - INFO - 4) Género: F
+2025-05-10 19:29:23,592 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,592 - INFO - 6) Código CUPS: 890241
+2025-05-10 19:29:23,592 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,592 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ COLOPROCTOLOGIA
+2025-05-10 19:29:23,592 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,592 - INFO - 
+Registro #5:
+2025-05-10 19:29:23,592 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,592 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:23,593 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:23,593 - INFO - 4) Género: F
+2025-05-10 19:29:23,593 - INFO - 5) Fecha: 2025-04-11
+2025-05-10 19:29:23,593 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:23,593 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,593 - INFO -    Servicio: CONSULTA POST OPERATORIO COLOPROCTOLOGIA
+2025-05-10 19:29:23,593 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,593 - INFO - 
+Registro #6:
+2025-05-10 19:29:23,593 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,593 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:23,594 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:23,594 - INFO - 4) Género: F
+2025-05-10 19:29:23,594 - INFO - 5) Fecha: 2025-04-11
+2025-05-10 19:29:23,594 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:23,594 - INFO -    Estado Cita: Cancelada
+2025-05-10 19:29:23,594 - INFO -    Servicio: CONSULTA POST OPERATORIO COLOPROCTOLOGIA
+2025-05-10 19:29:23,595 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,595 - INFO -  20) \u2713 Factura '712804-FV3047-26983172-CAROLINA_PINTO_OSPINO' procesada con Exito!
+2025-05-10 19:29:23,599 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,600 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\720445-FV3028-1144100322-DANIEL_ORTEGA_ACOSTA\FV3028.xml' cargado correctamente.
+2025-05-10 19:29:23,601 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,602 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,602 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,602 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,602 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:23,602 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,606 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\720445-FV3028-1144100322-DANIEL_ORTEGA_ACOSTA\FV3028.xml'.
+2025-05-10 19:29:23,606 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,608 - INFO - Se encontraron 1 registros para el paciente con cédula: 1144100322
+2025-05-10 19:29:23,609 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,611 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\720445-FV3028-1144100322-DANIEL_ORTEGA_ACOSTA\FV3028.json' modificado exitosamente.
+2025-05-10 19:29:23,613 - INFO - Se encontraron 1 registros para el paciente con cédula: 1144100322
+2025-05-10 19:29:23,614 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,614 - INFO - Nombre: DANIEL ORTEGA ACOSTA
+2025-05-10 19:29:23,614 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,614 - INFO - Número de Documento: 1144100322
+2025-05-10 19:29:23,615 - INFO - Fecha Nacimiento: 1998-01-17
+2025-05-10 19:29:23,615 - INFO - Género: M
+2025-05-10 19:29:23,615 - INFO - 
+=== REGISTROS ENCONTRADOS (1) ===
+2025-05-10 19:29:23,615 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,615 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,615 - INFO - 2) Número de Documento: 1144100322
+2025-05-10 19:29:23,615 - INFO - 3) Fecha Nacimiento: 1998-01-17
+2025-05-10 19:29:23,615 - INFO - 4) Género: M
+2025-05-10 19:29:23,615 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:23,615 - INFO - 6) Código CUPS: 492102
+2025-05-10 19:29:23,616 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,616 - INFO -    Servicio: ANOSCOPIA CON MAPEO TERAPEUTICA
+2025-05-10 19:29:23,616 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,616 - INFO -  21) \u2713 Factura '720445-FV3028-1144100322-DANIEL_ORTEGA_ACOSTA' procesada con Exito!
+2025-05-10 19:29:23,619 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,620 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\733951-FV3036-1022363085-ALEJANDRO_ENRIQUE_TRIANA_SARMIENTO\FV3036.xml' cargado correctamente.
+2025-05-10 19:29:23,621 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,621 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,621 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,621 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:23,622 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-05.
+2025-05-10 19:29:23,622 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,627 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\733951-FV3036-1022363085-ALEJANDRO_ENRIQUE_TRIANA_SARMIENTO\FV3036.xml'.
+2025-05-10 19:29:23,627 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,629 - INFO - Se encontraron 1 registros para el paciente con cédula: 1022363085
+2025-05-10 19:29:23,630 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:23,632 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\733951-FV3036-1022363085-ALEJANDRO_ENRIQUE_TRIANA_SARMIENTO\FV3036.json' modificado exitosamente.
+2025-05-10 19:29:23,634 - INFO - Se encontraron 1 registros para el paciente con cédula: 1022363085
+2025-05-10 19:29:23,635 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,635 - INFO - Nombre: ALEJANDRO ENRIQUE TRIANA SARMIENTO
+2025-05-10 19:29:23,635 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,635 - INFO - Número de Documento: 1022363085
+2025-05-10 19:29:23,635 - INFO - Fecha Nacimiento: 1990-07-08
+2025-05-10 19:29:23,635 - INFO - Género: M
+2025-05-10 19:29:23,635 - INFO - 
+=== REGISTROS ENCONTRADOS (1) ===
+2025-05-10 19:29:23,635 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,635 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,636 - INFO - 2) Número de Documento: 1022363085
+2025-05-10 19:29:23,636 - INFO - 3) Fecha Nacimiento: 1990-07-08
+2025-05-10 19:29:23,636 - INFO - 4) Género: M
+2025-05-10 19:29:23,636 - INFO - 5) Fecha: 2025-04-05
+2025-05-10 19:29:23,636 - INFO - 6) Código CUPS: 890241
+2025-05-10 19:29:23,636 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,636 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ COLOPROCTOLOGIA
+2025-05-10 19:29:23,636 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,636 - INFO -  22) \u2713 Factura '733951-FV3036-1022363085-ALEJANDRO_ENRIQUE_TRIANA_SARMIENTO' procesada con Exito!
+2025-05-10 19:29:23,640 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,641 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\74671-FV3027-1144100322-DANIEL_ORTEGA_ACOSTA\FV3027.xml' cargado correctamente.
+2025-05-10 19:29:23,643 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,643 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,643 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,644 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,644 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:23,644 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,650 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\74671-FV3027-1144100322-DANIEL_ORTEGA_ACOSTA\FV3027.xml'.
+2025-05-10 19:29:23,650 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,652 - INFO - Se encontraron 1 registros para el paciente con cédula: 1144100322
+2025-05-10 19:29:23,653 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:23,656 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\74671-FV3027-1144100322-DANIEL_ORTEGA_ACOSTA\FV3027.json' modificado exitosamente.
+2025-05-10 19:29:23,658 - INFO - Se encontraron 1 registros para el paciente con cédula: 1144100322
+2025-05-10 19:29:23,659 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,659 - INFO - Nombre: DANIEL ORTEGA ACOSTA
+2025-05-10 19:29:23,659 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,660 - INFO - Número de Documento: 1144100322
+2025-05-10 19:29:23,660 - INFO - Fecha Nacimiento: 1998-01-17
+2025-05-10 19:29:23,660 - INFO - Género: M
+2025-05-10 19:29:23,660 - INFO - 
+=== REGISTROS ENCONTRADOS (1) ===
+2025-05-10 19:29:23,660 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,660 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,660 - INFO - 2) Número de Documento: 1144100322
+2025-05-10 19:29:23,660 - INFO - 3) Fecha Nacimiento: 1998-01-17
+2025-05-10 19:29:23,660 - INFO - 4) Género: M
+2025-05-10 19:29:23,660 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:23,660 - INFO - 6) Código CUPS: 492102
+2025-05-10 19:29:23,661 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,661 - INFO -    Servicio: ANOSCOPIA CON MAPEO TERAPEUTICA
+2025-05-10 19:29:23,661 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,661 - INFO -  23) \u2713 Factura '74671-FV3027-1144100322-DANIEL_ORTEGA_ACOSTA' procesada con Exito!
+2025-05-10 19:29:23,665 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,667 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\752558-FV3056-79956301-CESAR_ANDRES_RAMIREZ\FV3056.xml' cargado correctamente.
+2025-05-10 19:29:23,667 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,667 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,668 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,668 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,668 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:23,668 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,677 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\752558-FV3056-79956301-CESAR_ANDRES_RAMIREZ\FV3056.xml'.
+2025-05-10 19:29:23,677 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,678 - INFO - Se encontraron 5 registros para el paciente con cédula: 79956301
+2025-05-10 19:29:23,680 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,685 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\752558-FV3056-79956301-CESAR_ANDRES_RAMIREZ\FV3056.json' modificado exitosamente.
+2025-05-10 19:29:23,687 - INFO - Se encontraron 5 registros para el paciente con cédula: 79956301
+2025-05-10 19:29:23,690 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,690 - INFO - Nombre: CESAR  ANDRES RAMIREZ
+2025-05-10 19:29:23,690 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,690 - INFO - Número de Documento: 79956301
+2025-05-10 19:29:23,690 - INFO - Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,690 - INFO - Género: M
+2025-05-10 19:29:23,690 - INFO - 
+=== REGISTROS ENCONTRADOS (5) ===
+2025-05-10 19:29:23,690 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,691 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,691 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,691 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,691 - INFO - 4) Género: M
+2025-05-10 19:29:23,691 - INFO - 5) Fecha: 2025-04-02
+2025-05-10 19:29:23,691 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,691 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,691 - INFO -    Servicio: TERAPIA PISO PELVICO ADICIONAL
+2025-05-10 19:29:23,691 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,692 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,692 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,692 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,692 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,692 - INFO - 4) Género: M
+2025-05-10 19:29:23,692 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:23,692 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,692 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,693 - INFO -    Servicio: TERAPIA PISO PELVICO ADICIONAL
+2025-05-10 19:29:23,693 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,693 - INFO - 
+Registro #3:
+2025-05-10 19:29:23,693 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,693 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,693 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,693 - INFO - 4) Género: M
+2025-05-10 19:29:23,693 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:23,694 - INFO - 6) Código CUPS: 890294
+2025-05-10 19:29:23,694 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,694 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ UROLOGIA
+2025-05-10 19:29:23,694 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,694 - INFO - 
+Registro #4:
+2025-05-10 19:29:23,695 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,695 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,695 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,695 - INFO - 4) Género: M
+2025-05-10 19:29:23,696 - INFO - 5) Fecha: 2025-04-08
+2025-05-10 19:29:23,696 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:23,696 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,696 - INFO -    Servicio: TERAPIA PISO PELVICO ADICIONAL
+2025-05-10 19:29:23,696 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,696 - INFO - 
+Registro #5:
+2025-05-10 19:29:23,697 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,697 - INFO - 2) Número de Documento: 79956301
+2025-05-10 19:29:23,697 - INFO - 3) Fecha Nacimiento: 1979-09-25
+2025-05-10 19:29:23,697 - INFO - 4) Género: M
+2025-05-10 19:29:23,697 - INFO - 5) Fecha: 2025-04-08
+2025-05-10 19:29:23,697 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:23,698 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,698 - INFO -    Servicio: CONSULTA POST OPERATORIO COLOPROCTOLOGIA
+2025-05-10 19:29:23,698 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,698 - INFO -  24) \u2713 Factura '752558-FV3056-79956301-CESAR_ANDRES_RAMIREZ' procesada con Exito!
+2025-05-10 19:29:23,703 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,750 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\769009-FV3042-1001043297-MELIZHA_ZABALA_HERNANDEZ\FV3042.xml' cargado correctamente.
+2025-05-10 19:29:23,754 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,755 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,755 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,755 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:23,757 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-05.
+2025-05-10 19:29:23,760 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,865 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\769009-FV3042-1001043297-MELIZHA_ZABALA_HERNANDEZ\FV3042.xml'.
+2025-05-10 19:29:23,865 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,867 - INFO - Se encontraron 2 registros para el paciente con cédula: 1001043297
+2025-05-10 19:29:23,868 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:23,872 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\769009-FV3042-1001043297-MELIZHA_ZABALA_HERNANDEZ\FV3042.json' modificado exitosamente.
+2025-05-10 19:29:23,874 - INFO - Se encontraron 2 registros para el paciente con cédula: 1001043297
+2025-05-10 19:29:23,876 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:23,876 - INFO - Nombre: MELIZHA ZABALA
+2025-05-10 19:29:23,876 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:23,876 - INFO - Número de Documento: 1001043297
+2025-05-10 19:29:23,876 - INFO - Fecha Nacimiento: 1998-04-27
+2025-05-10 19:29:23,876 - INFO - Género: F
+2025-05-10 19:29:23,876 - INFO - 
+=== REGISTROS ENCONTRADOS (2) ===
+2025-05-10 19:29:23,876 - INFO - 
+Registro #1:
+2025-05-10 19:29:23,876 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,876 - INFO - 2) Número de Documento: 1001043297
+2025-05-10 19:29:23,877 - INFO - 3) Fecha Nacimiento: 1998-04-27
+2025-05-10 19:29:23,877 - INFO - 4) Género: F
+2025-05-10 19:29:23,877 - INFO - 5) Fecha: 2025-04-05
+2025-05-10 19:29:23,877 - INFO - 6) Código CUPS: 441302
+2025-05-10 19:29:23,877 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:23,877 - INFO -    Servicio: ENDOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:23,877 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,877 - INFO - 
+Registro #2:
+2025-05-10 19:29:23,878 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:23,878 - INFO - 2) Número de Documento: 1001043297
+2025-05-10 19:29:23,878 - INFO - 3) Fecha Nacimiento: 1998-04-27
+2025-05-10 19:29:23,878 - INFO - 4) Género: F
+2025-05-10 19:29:23,878 - INFO - 5) Fecha: 2025-04-14
+2025-05-10 19:29:23,878 - INFO - 6) Código CUPS: 890346
+2025-05-10 19:29:23,878 - INFO -    Estado Cita: Pendiente por cerrar
+2025-05-10 19:29:23,878 - INFO -    Servicio: CONSULTA POST OPERATORIO GASTROENTEROLOGIA
+2025-05-10 19:29:23,878 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:23,878 - INFO -  25) \u2713 Factura '769009-FV3042-1001043297-MELIZHA_ZABALA_HERNANDEZ' procesada con Exito!
+2025-05-10 19:29:23,883 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:23,884 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\817782-FV3046-26983172-CAROLINA_PINTO_OSPINO\FV3046.xml' cargado correctamente.
+2025-05-10 19:29:23,885 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:23,885 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:23,886 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:23,886 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:23,886 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:23,886 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:23,906 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\817782-FV3046-26983172-CAROLINA_PINTO_OSPINO\FV3046.xml'.
+2025-05-10 19:29:23,907 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:23,935 - INFO - Se encontraron 6 registros para el paciente con cédula: 26983172
+2025-05-10 19:29:24,091 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:24,094 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\817782-FV3046-26983172-CAROLINA_PINTO_OSPINO\FV3046.json' modificado exitosamente.
+2025-05-10 19:29:24,096 - INFO - Se encontraron 6 registros para el paciente con cédula: 26983172
+2025-05-10 19:29:24,098 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:24,098 - INFO - Nombre: CAROLINA   PINTO OSPINO
+2025-05-10 19:29:24,098 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:24,098 - INFO - Número de Documento: 26983172
+2025-05-10 19:29:24,098 - INFO - Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:24,099 - INFO - Género: F
+2025-05-10 19:29:24,099 - INFO - 
+=== REGISTROS ENCONTRADOS (6) ===
+2025-05-10 19:29:24,099 - INFO - 
+Registro #1:
+2025-05-10 19:29:24,099 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,099 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:24,099 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:24,099 - INFO - 4) Género: F
+2025-05-10 19:29:24,099 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:24,099 - INFO - 6) Código CUPS: 494005
+2025-05-10 19:29:24,099 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,100 - INFO -    Servicio: RESECCION DE HEMORROIDES MIXTAS
+2025-05-10 19:29:24,100 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,100 - INFO - 
+Registro #2:
+2025-05-10 19:29:24,100 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,100 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:24,100 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:24,100 - INFO - 4) Género: F
+2025-05-10 19:29:24,100 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:24,100 - INFO - 6) Código CUPS: nan
+2025-05-10 19:29:24,100 - INFO -    Estado Cita: Programada
+2025-05-10 19:29:24,100 - INFO -    Servicio: PINZA LIGASURE SMALL JAW
+2025-05-10 19:29:24,101 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,101 - INFO - 
+Registro #3:
+2025-05-10 19:29:24,101 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,101 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:24,101 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:24,101 - INFO - 4) Género: F
+2025-05-10 19:29:24,101 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:24,101 - INFO - 6) Código CUPS: 890241
+2025-05-10 19:29:24,101 - INFO -    Estado Cita: Programada
+2025-05-10 19:29:24,101 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ COLOPROCTOLOGIA
+2025-05-10 19:29:24,102 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,102 - INFO - 
+Registro #4:
+2025-05-10 19:29:24,102 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,102 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:24,102 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:24,102 - INFO - 4) Género: F
+2025-05-10 19:29:24,102 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:24,102 - INFO - 6) Código CUPS: 890241
+2025-05-10 19:29:24,103 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,103 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ COLOPROCTOLOGIA
+2025-05-10 19:29:24,103 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,103 - INFO - 
+Registro #5:
+2025-05-10 19:29:24,103 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,103 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:24,103 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:24,103 - INFO - 4) Género: F
+2025-05-10 19:29:24,103 - INFO - 5) Fecha: 2025-04-11
+2025-05-10 19:29:24,103 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:24,103 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,104 - INFO -    Servicio: CONSULTA POST OPERATORIO COLOPROCTOLOGIA
+2025-05-10 19:29:24,104 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,104 - INFO - 
+Registro #6:
+2025-05-10 19:29:24,104 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,104 - INFO - 2) Número de Documento: 26983172
+2025-05-10 19:29:24,104 - INFO - 3) Fecha Nacimiento: 1961-01-12
+2025-05-10 19:29:24,104 - INFO - 4) Género: F
+2025-05-10 19:29:24,104 - INFO - 5) Fecha: 2025-04-11
+2025-05-10 19:29:24,104 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:24,104 - INFO -    Estado Cita: Cancelada
+2025-05-10 19:29:24,104 - INFO -    Servicio: CONSULTA POST OPERATORIO COLOPROCTOLOGIA
+2025-05-10 19:29:24,105 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,105 - INFO -  26) \u2713 Factura '817782-FV3046-26983172-CAROLINA_PINTO_OSPINO' procesada con Exito!
+2025-05-10 19:29:24,109 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:24,110 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\825320-FV3039-1074136856-CRISTIAN_ALEJANDRO_ROMERO_RUIZ\FV3039.xml' cargado correctamente.
+2025-05-10 19:29:24,111 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:24,111 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:24,111 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:24,112 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:24,112 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-05.
+2025-05-10 19:29:24,112 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:24,114 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\825320-FV3039-1074136856-CRISTIAN_ALEJANDRO_ROMERO_RUIZ\FV3039.xml'.
+2025-05-10 19:29:24,114 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:24,116 - INFO - Se encontraron 1 registros para el paciente con cédula: 1074136856
+2025-05-10 19:29:24,117 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:24,118 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\825320-FV3039-1074136856-CRISTIAN_ALEJANDRO_ROMERO_RUIZ\FV3039.json' modificado exitosamente.
+2025-05-10 19:29:24,120 - INFO - Se encontraron 1 registros para el paciente con cédula: 1074136856
+2025-05-10 19:29:24,121 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:24,122 - INFO - Nombre: CRISTIAN ALEJANDRO ROMERO  RUIZ
+2025-05-10 19:29:24,122 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:24,122 - INFO - Número de Documento: 1074136856
+2025-05-10 19:29:24,122 - INFO - Fecha Nacimiento: 1999-06-14
+2025-05-10 19:29:24,122 - INFO - Género: M
+2025-05-10 19:29:24,192 - INFO - 
+=== REGISTROS ENCONTRADOS (1) ===
+2025-05-10 19:29:24,192 - INFO - 
+Registro #1:
+2025-05-10 19:29:24,192 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,192 - INFO - 2) Número de Documento: 1074136856
+2025-05-10 19:29:24,192 - INFO - 3) Fecha Nacimiento: 1999-06-14
+2025-05-10 19:29:24,193 - INFO - 4) Género: M
+2025-05-10 19:29:24,193 - INFO - 5) Fecha: 2025-04-05
+2025-05-10 19:29:24,193 - INFO - 6) Código CUPS: 452305
+2025-05-10 19:29:24,193 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,193 - INFO -    Servicio: COLONOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:24,193 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,195 - INFO -  27) \u2713 Factura '825320-FV3039-1074136856-CRISTIAN_ALEJANDRO_ROMERO_RUIZ' procesada con Exito!
+2025-05-10 19:29:24,200 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:24,201 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\835785-FV3030-42876746-CLAUDIA_CORREA_CORREA\FV3030.xml' cargado correctamente.
+2025-05-10 19:29:24,202 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:24,202 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:24,202 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:24,202 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:24,203 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:24,203 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:24,206 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\835785-FV3030-42876746-CLAUDIA_CORREA_CORREA\FV3030.xml'.
+2025-05-10 19:29:24,207 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:24,208 - INFO - Se encontraron 9 registros para el paciente con cédula: 42876746
+2025-05-10 19:29:24,214 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:24,216 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\835785-FV3030-42876746-CLAUDIA_CORREA_CORREA\FV3030.json' modificado exitosamente.
+2025-05-10 19:29:24,218 - INFO - Se encontraron 9 registros para el paciente con cédula: 42876746
+2025-05-10 19:29:24,221 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:24,221 - INFO - Nombre: CLAUDIA CORREA
+2025-05-10 19:29:24,221 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:24,221 - INFO - Número de Documento: 42876746
+2025-05-10 19:29:24,221 - INFO - Fecha Nacimiento: 1962-10-17
+2025-05-10 19:29:24,222 - INFO - Género: F
+2025-05-10 19:29:24,222 - INFO - 
+=== REGISTROS ENCONTRADOS (9) ===
+2025-05-10 19:29:24,222 - INFO - 
+Registro #1:
+2025-05-10 19:29:24,222 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,222 - INFO - 2) Número de Documento: 42876746
+2025-05-10 19:29:24,222 - INFO - 3) Fecha Nacimiento: 1962-10-17
+2025-05-10 19:29:24,222 - INFO - 4) Género: F
+2025-05-10 19:29:24,222 - INFO - 5) Fecha: 2025-04-01
+2025-05-10 19:29:24,223 - INFO - 6) Código CUPS: nan
+2025-05-10 19:29:24,223 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,223 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ TERAPIA DE TERAPIA DE PISO PELVICO
+2025-05-10 19:29:24,224 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,224 - INFO - 
+Registro #2:
+2025-05-10 19:29:24,224 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,224 - INFO - 2) Número de Documento: 42876746
+2025-05-10 19:29:24,224 - INFO - 3) Fecha Nacimiento: 1962-10-17
+2025-05-10 19:29:24,224 - INFO - 4) Género: F
+2025-05-10 19:29:24,224 - INFO - 5) Fecha: 2025-04-01
+2025-05-10 19:29:24,224 - INFO - 6) Código CUPS: nan
+2025-05-10 19:29:24,224 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:24,225 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ TERAPIA DE TERAPIA DE PISO PELVICO
+2025-05-10 19:29:24,225 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,225 - INFO - 
+Registro #3:
+2025-05-10 19:29:24,225 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,225 - INFO - 2) Número de Documento: 42876746
+2025-05-10 19:29:24,225 - INFO - 3) Fecha Nacimiento: 1962-10-17
+2025-05-10 19:29:24,225 - INFO - 4) Género: F
+2025-05-10 19:29:24,225 - INFO - 5) Fecha: 2025-04-01
+2025-05-10 19:29:24,225 - INFO - 6) Código CUPS: 452305
+2025-05-10 19:29:24,225 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,226 - INFO -    Servicio: COLONOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:24,226 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,226 - INFO - 
+Registro #4:
+2025-05-10 19:29:24,226 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,227 - INFO - 2) Número de Documento: 42876746
+2025-05-10 19:29:24,236 - INFO - 3) Fecha Nacimiento: 1962-10-17
+2025-05-10 19:29:24,236 - INFO - 4) Género: F
+2025-05-10 19:29:24,236 - INFO - 5) Fecha: 2025-04-01
+2025-05-10 19:29:24,236 - INFO - 6) Código CUPS: 441302
+2025-05-10 19:29:24,237 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,237 - INFO -    Servicio: ENDOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:24,237 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,238 - INFO - 
+Registro #5:
+2025-05-10 19:29:24,253 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,253 - INFO - 2) Número de Documento: 42876746
+2025-05-10 19:29:24,254 - INFO - 3) Fecha Nacimiento: 1962-10-17
+2025-05-10 19:29:24,254 - INFO - 4) Género: F
+2025-05-10 19:29:24,254 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:24,255 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:24,255 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,502 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:24,503 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,503 - INFO - 
+Registro #6:
+2025-05-10 19:29:24,503 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,503 - INFO - 2) Número de Documento: 42876746
+2025-05-10 19:29:24,503 - INFO - 3) Fecha Nacimiento: 1962-10-17
+2025-05-10 19:29:24,503 - INFO - 4) Género: F
+2025-05-10 19:29:24,503 - INFO - 5) Fecha: 2025-04-08
+2025-05-10 19:29:24,503 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:24,503 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,504 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:24,504 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,504 - INFO - 
+Registro #7:
+2025-05-10 19:29:24,504 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,504 - INFO - 2) Número de Documento: 42876746
+2025-05-10 19:29:24,504 - INFO - 3) Fecha Nacimiento: 1962-10-17
+2025-05-10 19:29:24,504 - INFO - 4) Género: F
+2025-05-10 19:29:24,504 - INFO - 5) Fecha: 2025-04-11
+2025-05-10 19:29:24,504 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:24,504 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,504 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:24,505 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,505 - INFO - 
+Registro #8:
+2025-05-10 19:29:24,505 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,505 - INFO - 2) Número de Documento: 42876746
+2025-05-10 19:29:24,505 - INFO - 3) Fecha Nacimiento: 1962-10-17
+2025-05-10 19:29:24,505 - INFO - 4) Género: F
+2025-05-10 19:29:24,505 - INFO - 5) Fecha: 2025-04-16
+2025-05-10 19:29:24,505 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:24,505 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,505 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:24,505 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,506 - INFO - 
+Registro #9:
+2025-05-10 19:29:24,506 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,506 - INFO - 2) Número de Documento: 42876746
+2025-05-10 19:29:24,506 - INFO - 3) Fecha Nacimiento: 1962-10-17
+2025-05-10 19:29:24,506 - INFO - 4) Género: F
+2025-05-10 19:29:24,506 - INFO - 5) Fecha: 2025-04-25
+2025-05-10 19:29:24,506 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:24,506 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,506 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:24,507 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,507 - INFO -  28) \u2713 Factura '835785-FV3030-42876746-CLAUDIA_CORREA_CORREA' procesada con Exito!
+2025-05-10 19:29:24,511 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:24,512 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\839484-FV3040-7634531-JAIME_EDUARDO_VIVES_CABALLERO\FV3040.xml' cargado correctamente.
+2025-05-10 19:29:24,513 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:24,513 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:24,514 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:24,514 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:24,514 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-05.
+2025-05-10 19:29:24,514 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:24,517 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\839484-FV3040-7634531-JAIME_EDUARDO_VIVES_CABALLERO\FV3040.xml'.
+2025-05-10 19:29:24,517 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:24,519 - INFO - Se encontraron 4 registros para el paciente con cédula: 7634531
+2025-05-10 19:29:24,521 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:24,525 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\839484-FV3040-7634531-JAIME_EDUARDO_VIVES_CABALLERO\FV3040.json' modificado exitosamente.
+2025-05-10 19:29:24,527 - INFO - Se encontraron 4 registros para el paciente con cédula: 7634531
+2025-05-10 19:29:24,529 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:24,529 - INFO - Nombre: JAIME EDUARDO VIVES CABALLERO
+2025-05-10 19:29:24,529 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:24,529 - INFO - Número de Documento: 7634531
+2025-05-10 19:29:24,529 - INFO - Fecha Nacimiento: 1982-04-03
+2025-05-10 19:29:24,530 - INFO - Género: F
+2025-05-10 19:29:24,530 - INFO - 
+=== REGISTROS ENCONTRADOS (4) ===
+2025-05-10 19:29:24,530 - INFO - 
+Registro #1:
+2025-05-10 19:29:24,530 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,530 - INFO - 2) Número de Documento: 7634531
+2025-05-10 19:29:24,530 - INFO - 3) Fecha Nacimiento: 1982-04-03
+2025-05-10 19:29:24,530 - INFO - 4) Género: F
+2025-05-10 19:29:24,530 - INFO - 5) Fecha: 2025-04-21
+2025-05-10 19:29:24,530 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:24,530 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:24,530 - INFO -    Servicio: CONSULTA POST OPERATORIO COLOPROCTOLOGIA
+2025-05-10 19:29:24,531 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,531 - INFO - 
+Registro #2:
+2025-05-10 19:29:24,531 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,531 - INFO - 2) Número de Documento: 7634531
+2025-05-10 19:29:24,531 - INFO - 3) Fecha Nacimiento: 1982-04-03
+2025-05-10 19:29:24,531 - INFO - 4) Género: F
+2025-05-10 19:29:24,531 - INFO - 5) Fecha: 2025-04-23
+2025-05-10 19:29:24,531 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:24,531 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,531 - INFO -    Servicio: CONSULTA DE CONTROL COLOPROCTOLOGIA
+2025-05-10 19:29:24,532 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,532 - INFO - 
+Registro #3:
+2025-05-10 19:29:24,532 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,532 - INFO - 2) Número de Documento: 7634531
+2025-05-10 19:29:24,532 - INFO - 3) Fecha Nacimiento: 1982-04-03
+2025-05-10 19:29:24,532 - INFO - 4) Género: F
+2025-05-10 19:29:24,532 - INFO - 5) Fecha: 2025-04-28
+2025-05-10 19:29:24,533 - INFO - 6) Código CUPS: 861411
+2025-05-10 19:29:24,533 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,533 - INFO -    Servicio: INYECCION DE TOXINA BOTULINICA MAS ABLACION DE FISURA
+2025-05-10 19:29:24,533 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,533 - INFO - 
+Registro #4:
+2025-05-10 19:29:24,533 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,533 - INFO - 2) Número de Documento: 7634531
+2025-05-10 19:29:24,533 - INFO - 3) Fecha Nacimiento: 1982-04-03
+2025-05-10 19:29:24,533 - INFO - 4) Género: F
+2025-05-10 19:29:24,533 - INFO - 5) Fecha: 2025-04-30
+2025-05-10 19:29:24,534 - INFO - 6) Código CUPS: 890341
+2025-05-10 19:29:24,534 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,534 - INFO -    Servicio: CONSULTA POST OPERATORIO COLOPROCTOLOGIA
+2025-05-10 19:29:24,534 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,534 - INFO -  29) \u2713 Factura '839484-FV3040-7634531-JAIME_EDUARDO_VIVES_CABALLERO' procesada con Exito!
+2025-05-10 19:29:24,539 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:24,540 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\862783-FV3049-1019078057-DANIELA_GUTIERREZ_ZUÑIGA\FV3049.xml' cargado correctamente.
+2025-05-10 19:29:24,541 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:24,541 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:24,541 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:24,541 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:24,541 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:24,542 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:24,684 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\862783-FV3049-1019078057-DANIELA_GUTIERREZ_ZUÑIGA\FV3049.xml'.
+2025-05-10 19:29:24,684 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:24,686 - INFO - Se encontraron 1 registros para el paciente con cédula: 1019078057
+2025-05-10 19:29:24,687 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:24,782 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\862783-FV3049-1019078057-DANIELA_GUTIERREZ_ZUÑIGA\FV3049.json' modificado exitosamente.
+2025-05-10 19:29:24,784 - INFO - Se encontraron 1 registros para el paciente con cédula: 1019078057
+2025-05-10 19:29:24,785 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:24,785 - INFO - Nombre: DANIELA GUTIERREZ ZUÑIGA
+2025-05-10 19:29:24,785 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:24,785 - INFO - Número de Documento: 1019078057
+2025-05-10 19:29:24,785 - INFO - Fecha Nacimiento: 1992-12-26
+2025-05-10 19:29:24,786 - INFO - Género: F
+2025-05-10 19:29:24,786 - INFO - 
+=== REGISTROS ENCONTRADOS (1) ===
+2025-05-10 19:29:24,786 - INFO - 
+Registro #1:
+2025-05-10 19:29:24,786 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,786 - INFO - 2) Número de Documento: 1019078057
+2025-05-10 19:29:24,786 - INFO - 3) Fecha Nacimiento: 1992-12-26
+2025-05-10 19:29:24,786 - INFO - 4) Género: F
+2025-05-10 19:29:24,786 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:24,786 - INFO - 6) Código CUPS: 890206
+2025-05-10 19:29:24,786 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,786 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ NUTRICION Y DIETETICA
+2025-05-10 19:29:24,787 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,787 - INFO -  30) \u2713 Factura '862783-FV3049-1019078057-DANIELA_GUTIERREZ_ZUÑIGA' procesada con Exito!
+2025-05-10 19:29:24,792 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:24,794 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\912376-FV3050-52709537-CAROLINA_CASTELBLANCO_GOMEZ\FV3050.xml' cargado correctamente.
+2025-05-10 19:29:24,794 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:24,795 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:24,795 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:24,795 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:24,795 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-07.
+2025-05-10 19:29:24,795 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:24,799 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\912376-FV3050-52709537-CAROLINA_CASTELBLANCO_GOMEZ\FV3050.xml'.
+2025-05-10 19:29:24,800 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:24,801 - INFO - Se encontraron 4 registros para el paciente con cédula: 52709537
+2025-05-10 19:29:24,804 - INFO - Fecha encontrada en el XML: 2025-04-07
+2025-05-10 19:29:24,807 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\912376-FV3050-52709537-CAROLINA_CASTELBLANCO_GOMEZ\FV3050.json' modificado exitosamente.
+2025-05-10 19:29:24,809 - INFO - Se encontraron 4 registros para el paciente con cédula: 52709537
+2025-05-10 19:29:24,811 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:24,812 - INFO - Nombre: CAROLINA CASTELBLANCO   GOMEZ
+2025-05-10 19:29:24,812 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:24,812 - INFO - Número de Documento: 52709537
+2025-05-10 19:29:24,812 - INFO - Fecha Nacimiento: 1980-05-22
+2025-05-10 19:29:24,812 - INFO - Género: F
+2025-05-10 19:29:24,812 - INFO - 
+=== REGISTROS ENCONTRADOS (4) ===
+2025-05-10 19:29:24,813 - INFO - 
+Registro #1:
+2025-05-10 19:29:24,813 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,813 - INFO - 2) Número de Documento: 52709537
+2025-05-10 19:29:24,813 - INFO - 3) Fecha Nacimiento: 1980-05-22
+2025-05-10 19:29:24,813 - INFO - 4) Género: F
+2025-05-10 19:29:24,813 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:24,813 - INFO - 6) Código CUPS: 890206
+2025-05-10 19:29:24,813 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,813 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ NUTRICION Y DIETETICA
+2025-05-10 19:29:24,813 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,814 - INFO - 
+Registro #2:
+2025-05-10 19:29:24,814 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,814 - INFO - 2) Número de Documento: 52709537
+2025-05-10 19:29:24,814 - INFO - 3) Fecha Nacimiento: 1980-05-22
+2025-05-10 19:29:24,814 - INFO - 4) Género: F
+2025-05-10 19:29:24,814 - INFO - 5) Fecha: 2025-04-08
+2025-05-10 19:29:24,814 - INFO - 6) Código CUPS: 890346
+2025-05-10 19:29:24,814 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,814 - INFO -    Servicio: CONSULTA POST OPERATORIO GASTROENTEROLOGIA
+2025-05-10 19:29:24,814 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,815 - INFO - 
+Registro #3:
+2025-05-10 19:29:24,815 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,815 - INFO - 2) Número de Documento: 52709537
+2025-05-10 19:29:24,815 - INFO - 3) Fecha Nacimiento: 1980-05-22
+2025-05-10 19:29:24,815 - INFO - 4) Género: F
+2025-05-10 19:29:24,815 - INFO - 5) Fecha: 2025-04-10
+2025-05-10 19:29:24,815 - INFO - 6) Código CUPS: 890261
+2025-05-10 19:29:24,815 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,815 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ DEPORTOLOGIA
+2025-05-10 19:29:24,815 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,815 - INFO - 
+Registro #4:
+2025-05-10 19:29:24,816 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:24,816 - INFO - 2) Número de Documento: 52709537
+2025-05-10 19:29:24,816 - INFO - 3) Fecha Nacimiento: 1980-05-22
+2025-05-10 19:29:24,816 - INFO - 4) Género: F
+2025-05-10 19:29:24,816 - INFO - 5) Fecha: 2025-04-16
+2025-05-10 19:29:24,816 - INFO - 6) Código CUPS: 890306
+2025-05-10 19:29:24,816 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:24,816 - INFO -    Servicio: CONSULTA DE CONTROL NUTRICION Y DIETETICA
+2025-05-10 19:29:24,816 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:24,817 - INFO -  31) \u2713 Factura '912376-FV3050-52709537-CAROLINA_CASTELBLANCO_GOMEZ' procesada con Exito!
+2025-05-10 19:29:25,006 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,011 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\914458-FV3034-1026568554-CRISTIAN_CAMILO_PARDO_ARANA\FV3034.xml' cargado correctamente.
+2025-05-10 19:29:25,013 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:25,013 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:25,013 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:25,016 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:25,016 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:25,017 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:25,147 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\914458-FV3034-1026568554-CRISTIAN_CAMILO_PARDO_ARANA\FV3034.xml'.
+2025-05-10 19:29:25,147 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:25,149 - INFO - Se encontraron 13 registros para el paciente con cédula: 1026568554
+2025-05-10 19:29:25,154 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:25,369 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\914458-FV3034-1026568554-CRISTIAN_CAMILO_PARDO_ARANA\FV3034.json' modificado exitosamente.
+2025-05-10 19:29:25,371 - INFO - Se encontraron 13 registros para el paciente con cédula: 1026568554
+2025-05-10 19:29:25,378 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:25,378 - INFO - Nombre: CRISTIAN CAMILO PARDO  ARANA
+2025-05-10 19:29:25,378 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:25,379 - INFO - Número de Documento: 1026568554
+2025-05-10 19:29:25,379 - INFO - Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,379 - INFO - Género: M
+2025-05-10 19:29:25,379 - INFO - 
+=== REGISTROS ENCONTRADOS (13) ===
+2025-05-10 19:29:25,379 - INFO - 
+Registro #1:
+2025-05-10 19:29:25,379 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,379 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,380 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,380 - INFO - 4) Género: M
+2025-05-10 19:29:25,380 - INFO - 5) Fecha: 2025-04-01
+2025-05-10 19:29:25,380 - INFO - 6) Código CUPS: 890241
+2025-05-10 19:29:25,380 - INFO -    Estado Cita: Programada
+2025-05-10 19:29:25,380 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ COLOPROCTOLOGIA
+2025-05-10 19:29:25,380 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,380 - INFO - 
+Registro #2:
+2025-05-10 19:29:25,380 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,380 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,381 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,381 - INFO - 4) Género: M
+2025-05-10 19:29:25,381 - INFO - 5) Fecha: 2025-04-01
+2025-05-10 19:29:25,381 - INFO - 6) Código CUPS: 890241
+2025-05-10 19:29:25,381 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:25,381 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ COLOPROCTOLOGIA
+2025-05-10 19:29:25,381 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,381 - INFO - 
+Registro #3:
+2025-05-10 19:29:25,381 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,381 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,381 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,382 - INFO - 4) Género: M
+2025-05-10 19:29:25,382 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:25,382 - INFO - 6) Código CUPS: nan
+2025-05-10 19:29:25,382 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:25,382 - INFO -    Servicio: CONSULTA DE PRIMERA VEZ TERAPIA DE TERAPIA DE PISO PELVICO
+2025-05-10 19:29:25,382 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,382 - INFO - 
+Registro #4:
+2025-05-10 19:29:25,382 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,382 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,383 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,383 - INFO - 4) Género: M
+2025-05-10 19:29:25,383 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:25,383 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:25,383 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:25,383 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:25,383 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,383 - INFO - 
+Registro #5:
+2025-05-10 19:29:25,383 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,384 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,384 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,384 - INFO - 4) Género: M
+2025-05-10 19:29:25,384 - INFO - 5) Fecha: 2025-04-09
+2025-05-10 19:29:25,384 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:25,384 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:25,384 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:25,384 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,384 - INFO - 
+Registro #6:
+2025-05-10 19:29:25,384 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,385 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,385 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,385 - INFO - 4) Género: M
+2025-05-10 19:29:25,385 - INFO - 5) Fecha: 2025-04-11
+2025-05-10 19:29:25,385 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:25,385 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:25,385 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:25,385 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,385 - INFO - 
+Registro #7:
+2025-05-10 19:29:25,385 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,385 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,386 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,386 - INFO - 4) Género: M
+2025-05-10 19:29:25,386 - INFO - 5) Fecha: 2025-04-15
+2025-05-10 19:29:25,386 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:25,386 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:25,386 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:25,386 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,386 - INFO - 
+Registro #8:
+2025-05-10 19:29:25,386 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,386 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,386 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,387 - INFO - 4) Género: M
+2025-05-10 19:29:25,387 - INFO - 5) Fecha: 2025-04-22
+2025-05-10 19:29:25,387 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:25,387 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:25,387 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:25,387 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,387 - INFO - 
+Registro #9:
+2025-05-10 19:29:25,387 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,387 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,387 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,388 - INFO - 4) Género: M
+2025-05-10 19:29:25,388 - INFO - 5) Fecha: 2025-04-23
+2025-05-10 19:29:25,388 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:25,388 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:25,388 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:25,422 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,423 - INFO - 
+Registro #10:
+2025-05-10 19:29:25,423 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,423 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,423 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,423 - INFO - 4) Género: M
+2025-05-10 19:29:25,423 - INFO - 5) Fecha: 2025-04-25
+2025-05-10 19:29:25,423 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:25,423 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:25,424 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:25,424 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,424 - INFO - 
+Registro #11:
+2025-05-10 19:29:25,424 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,424 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,424 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,424 - INFO - 4) Género: M
+2025-05-10 19:29:25,424 - INFO - 5) Fecha: 2025-04-25
+2025-05-10 19:29:25,424 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:25,424 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:25,424 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:25,425 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,425 - INFO - 
+Registro #12:
+2025-05-10 19:29:25,425 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,425 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,425 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,425 - INFO - 4) Género: M
+2025-05-10 19:29:25,425 - INFO - 5) Fecha: 2025-04-28
+2025-05-10 19:29:25,425 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:25,425 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:25,425 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:25,426 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,426 - INFO - 
+Registro #13:
+2025-05-10 19:29:25,426 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,426 - INFO - 2) Número de Documento: 1026568554
+2025-05-10 19:29:25,426 - INFO - 3) Fecha Nacimiento: 1991-08-31
+2025-05-10 19:29:25,426 - INFO - 4) Género: M
+2025-05-10 19:29:25,426 - INFO - 5) Fecha: 2025-04-30
+2025-05-10 19:29:25,426 - INFO - 6) Código CUPS: 931001
+2025-05-10 19:29:25,426 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:25,426 - INFO -    Servicio: PAQUETE 5 SESIONES INCONTINENCIA FECAL TERAPIA DE PISO PELVICO
+2025-05-10 19:29:25,426 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,427 - INFO -  32) \u2713 Factura '914458-FV3034-1026568554-CRISTIAN_CAMILO_PARDO_ARANA' procesada con Exito!
+2025-05-10 19:29:25,432 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,434 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\951924-FV3037-27680120-QUEENY_MIREYA_MUÑOZ_RODRIGUEZ\FV3037.xml' cargado correctamente.
+2025-05-10 19:29:25,435 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:25,435 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:25,435 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:25,435 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:25,435 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-05.
+2025-05-10 19:29:25,436 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:25,443 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\951924-FV3037-27680120-QUEENY_MIREYA_MUÑOZ_RODRIGUEZ\FV3037.xml'.
+2025-05-10 19:29:25,443 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:25,445 - INFO - Se encontraron 4 registros para el paciente con cédula: 27680120
+2025-05-10 19:29:25,447 - INFO - Fecha encontrada en el XML: 2025-04-05
+2025-05-10 19:29:25,458 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\951924-FV3037-27680120-QUEENY_MIREYA_MUÑOZ_RODRIGUEZ\FV3037.json' modificado exitosamente.
+2025-05-10 19:29:25,460 - INFO - Se encontraron 4 registros para el paciente con cédula: 27680120
+2025-05-10 19:29:25,462 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:25,462 - INFO - Nombre: QUEENY   MIREYA MUÑOZ  RODRIGUEZ
+2025-05-10 19:29:25,462 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:25,463 - INFO - Número de Documento: 27680120
+2025-05-10 19:29:25,463 - INFO - Fecha Nacimiento: 1942-07-26
+2025-05-10 19:29:25,463 - INFO - Género: F
+2025-05-10 19:29:25,463 - INFO - 
+=== REGISTROS ENCONTRADOS (4) ===
+2025-05-10 19:29:25,463 - INFO - 
+Registro #1:
+2025-05-10 19:29:25,463 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,463 - INFO - 2) Número de Documento: 27680120
+2025-05-10 19:29:25,464 - INFO - 3) Fecha Nacimiento: 1942-07-26
+2025-05-10 19:29:25,464 - INFO - 4) Género: F
+2025-05-10 19:29:25,464 - INFO - 5) Fecha: 2025-04-05
+2025-05-10 19:29:25,464 - INFO - 6) Código CUPS: 452305
+2025-05-10 19:29:25,464 - INFO -    Estado Cita: Cancelada
+2025-05-10 19:29:25,464 - INFO -    Servicio: COLONOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:25,464 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,464 - INFO - 
+Registro #2:
+2025-05-10 19:29:25,464 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,465 - INFO - 2) Número de Documento: 27680120
+2025-05-10 19:29:25,465 - INFO - 3) Fecha Nacimiento: 1942-07-26
+2025-05-10 19:29:25,465 - INFO - 4) Género: F
+2025-05-10 19:29:25,465 - INFO - 5) Fecha: 2025-04-05
+2025-05-10 19:29:25,465 - INFO - 6) Código CUPS: 890346
+2025-05-10 19:29:25,465 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:25,465 - INFO -    Servicio: CONSULTA DE CONTROL GASTROENTEROLOGIA
+2025-05-10 19:29:25,465 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,465 - INFO - 
+Registro #3:
+2025-05-10 19:29:25,465 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,466 - INFO - 2) Número de Documento: 27680120
+2025-05-10 19:29:25,466 - INFO - 3) Fecha Nacimiento: 1942-07-26
+2025-05-10 19:29:25,466 - INFO - 4) Género: F
+2025-05-10 19:29:25,466 - INFO - 5) Fecha: 2025-04-07
+2025-05-10 19:29:25,466 - INFO - 6) Código CUPS: 452305
+2025-05-10 19:29:25,466 - INFO -    Estado Cita: Inasistente
+2025-05-10 19:29:25,466 - INFO -    Servicio: COLONOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:25,466 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,467 - INFO - 
+Registro #4:
+2025-05-10 19:29:25,467 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,467 - INFO - 2) Número de Documento: 27680120
+2025-05-10 19:29:25,467 - INFO - 3) Fecha Nacimiento: 1942-07-26
+2025-05-10 19:29:25,467 - INFO - 4) Género: F
+2025-05-10 19:29:25,467 - INFO - 5) Fecha: 2025-04-12
+2025-05-10 19:29:25,467 - INFO - 6) Código CUPS: 452305
+2025-05-10 19:29:25,468 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:25,468 - INFO -    Servicio: COLONOSCOPIA DIAGNOSTICA
+2025-05-10 19:29:25,468 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,468 - INFO -  33) \u2713 Factura '951924-FV3037-27680120-QUEENY_MIREYA_MUÑOZ_RODRIGUEZ' procesada con Exito!
+2025-05-10 19:29:25,474 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,475 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\967387-FV3023-52620308-MARIA_PAULINA_ORJUELA\FV3023.xml' cargado correctamente.
+2025-05-10 19:29:25,475 - INFO - 
+=== Ejecutando OP1 XML: Codigo Prestador ===
+2025-05-10 19:29:25,475 - INFO - Bloques insertados después de CODIGO_PRESTADOR.
+2025-05-10 19:29:25,476 - INFO - 
+=== Ejecutando OP2 XML: Fecha del Invoice ===
+2025-05-10 19:29:25,476 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:25,476 - INFO - Bloque InvoicePeriod insertado con fecha 2025-04-04.
+2025-05-10 19:29:25,476 - INFO - 
+=== Guardando Cambios en XML... ===
+2025-05-10 19:29:25,480 - INFO - Archivo guardado correctamente en 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\967387-FV3023-52620308-MARIA_PAULINA_ORJUELA\FV3023.xml'.
+2025-05-10 19:29:25,480 - INFO - 
+=== Ejecutando OP3 JSON: Datos del Excel al JSON ===
+2025-05-10 19:29:25,482 - INFO - Se encontraron 1 registros para el paciente con cédula: 52620308
+2025-05-10 19:29:25,483 - INFO - Fecha encontrada en el XML: 2025-04-04
+2025-05-10 19:29:25,492 - INFO - Archivo 'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\Test Facts\967387-FV3023-52620308-MARIA_PAULINA_ORJUELA\FV3023.json' modificado exitosamente.
+2025-05-10 19:29:25,494 - INFO - Se encontraron 1 registros para el paciente con cédula: 52620308
+2025-05-10 19:29:25,495 - INFO - 
+=== INFORMACIÓN GENERAL DEL PACIENTE ===
+2025-05-10 19:29:25,495 - INFO - Nombre: MARIA PAULINA ORJUELA
+2025-05-10 19:29:25,495 - INFO - Tipo de Documento: CC
+2025-05-10 19:29:25,495 - INFO - Número de Documento: 52620308
+2025-05-10 19:29:25,495 - INFO - Fecha Nacimiento: 1964-12-15
+2025-05-10 19:29:25,495 - INFO - Género: F
+2025-05-10 19:29:25,495 - INFO - 
+=== REGISTROS ENCONTRADOS (1) ===
+2025-05-10 19:29:25,496 - INFO - 
+Registro #1:
+2025-05-10 19:29:25,496 - INFO - 1) Tipo de Documento: CC
+2025-05-10 19:29:25,496 - INFO - 2) Número de Documento: 52620308
+2025-05-10 19:29:25,496 - INFO - 3) Fecha Nacimiento: 1964-12-15
+2025-05-10 19:29:25,496 - INFO - 4) Género: F
+2025-05-10 19:29:25,496 - INFO - 5) Fecha: 2025-04-04
+2025-05-10 19:29:25,496 - INFO - 6) Código CUPS: 452305
+2025-05-10 19:29:25,496 - INFO -    Estado Cita: Atendida
+2025-05-10 19:29:25,496 - INFO -    Servicio: COLONOSCOPIA TERAPEUTICA
+2025-05-10 19:29:25,496 - INFO -    Diagnóstico: nan - nan
+2025-05-10 19:29:25,496 - INFO -  34) \u2713 Factura '967387-FV3023-52620308-MARIA_PAULINA_ORJUELA' procesada con Exito!
+2025-05-10 19:29:25,498 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,524 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,543 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,590 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,674 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,706 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,765 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,767 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,808 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,875 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,903 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,926 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,947 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,968 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:25,988 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,013 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,034 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,056 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,135 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,139 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,181 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,212 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,235 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,258 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,401 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,424 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,446 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,469 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,491 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,514 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,536 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,559 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,581 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,604 - INFO - Iniciando el registro de la aplicación.
+2025-05-10 19:29:26,628 - INFO - Iniciando el registro de la aplicación.

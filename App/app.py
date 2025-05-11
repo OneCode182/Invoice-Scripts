@@ -6,6 +6,10 @@ from App.Log import Log
 from App.SearchFiles import SearchFiles
 import re
 
+from UpdateExcel import procesar_directorios_actualizar_excel as update_excel
+
+
+
 class App:
     def __init__(self):
         # RUTAS ARCHIVOS
@@ -24,6 +28,11 @@ class App:
         self.search = SearchFiles()
         print("*** INFO: EXCEL Cargado Correctamente! ***")
 
+
+    def app_update_excel(self):
+        ruta_dir = r"C:\Users\Sergio Silva\Desktop\1-PROC-ABR-4-7\PARA_SUBIR"
+        ruta_excel = r"C:\Users\Sergio Silva\Desktop\FACTS-FILES\Lote_02-ABR-4-7.xlsx"
+        update_excel(ruta_dir, ruta_excel)
 
 
     def search_val_fact(self):
@@ -251,7 +260,7 @@ class App:
         # Buscar la posición de LineCountNumeric
         posicion = -1
         for i, linea in enumerate(self.lineas_xml):
-            if "<cbc:LineCountNumeric>1</cbc:LineCountNumeric>" in linea:
+            if "<cbc:LineCountNumeric>" in linea:
                 posicion = i
                 break
 
@@ -336,8 +345,6 @@ class App:
         """
         Extrae el ID dentro de las etiquetas StandardItemIdentification de un XML.
 
-        Returns:
-            list: Lista con los IDs encontrados (generalmente serán 2)
         """
         ids_encontrados = []
         contenido_completo = ''.join(self.lineas_xml)  # Unir todas las líneas en una sola cadena
@@ -367,6 +374,10 @@ class App:
         return ids_encontrados[0]
 
 
+    def get_first_codproc(self, doc):
+        registro = self.excel_obj.buscar_paciente_por_cedula(doc)[0]
+        return registro['codigo_cups']
+
 
     def json_data(self, doc):
         # Obtener Datos Paciente por Documento
@@ -374,8 +385,19 @@ class App:
 
         # Agregar valores adicionales a los del excel
         data_doc['numFactura'] = self.rutas['FV_VALUE']
-        data_doc['fechaIni'] = self.get_var_2_date()
-        data_doc['codProc'] = self.get_cod_proc()
+        data_doc['fechaIni'] = f"{self.get_var_2_date()} 00:00"
+
+        # Codigo Servicio
+        try:
+            codigo = self.get_cod_proc().split('-')[0]
+            int(codigo)
+            data_doc['codProc'] = str(codigo)
+
+        except ValueError as e:
+            self.log.log_error(e)
+            data_doc['codProc'] = self.get_first_codproc(doc)
+
+
         data_doc['valorServ'] = self.search_val_fact()
 
         # Modificar JSON
@@ -392,7 +414,7 @@ class App:
         a_l, b_l = [], []
 
         for i, directorio in enumerate(dirs):
-            rutas = self.search.buscar_por_doc(self.RUTA_FACTS, directorio.split('-')[2])
+            rutas = self.search.buscar_por_fv(self.RUTA_FACTS, directorio.split('-')[1])
 
             # Crear el Log
             log_dir = r'C:\Users\Sergio Silva\Desktop\Invoice-Scripts\LOG-TEST'
@@ -426,9 +448,9 @@ class App:
             print(f"-> {_}")
 
 
-    def script_documento(self):
-        doc = input("Digite Documento: ")
-        self.rutas = self.search.buscar_por_doc(self.RUTA_FACTS, doc)
+    def script_fvvalue(self):
+        fv_value = input("Digite FV VALUE: ")
+        self.rutas = self.search.buscar_por_fv(self.RUTA_FACTS, fv_value)
 
 
         if self.rutas:
@@ -452,14 +474,14 @@ class App:
             self.json_obj = JsonData(self.rutas['json'], self.excel_obj, self.log)
 
             # Procesar Factura: XML - JSON - EXCEL
-            self.process_fact(doc)
+            self.process_fact(self.rutas['doc'])
 
 
             # Mostrar INFO Paciente
-            self.excel_obj.mostrar_resultados(self.excel_obj.buscar_paciente_por_cedula(doc))
+            self.excel_obj.mostrar_resultados(self.excel_obj.buscar_paciente_por_cedula(fv_value))
 
         else:
-            self.log.log_message(f"ERROR: El Directorio con referencia al DOC: {doc} no existe!")
+            self.log.log_message(f"ERROR: El Directorio con referencia al DOC: {fv_value} no existe!")
 
 
 
@@ -470,7 +492,8 @@ class App:
         for i, directorio in enumerate(dirs):
             try:
                 doc = directorio.split("-")[2]
-                self.rutas = self.search.buscar_por_doc(self.RUTA_FACTS, doc)
+                fv_value = directorio.split("-")[1]
+                self.rutas = self.search.buscar_por_fv(self.RUTA_FACTS, fv_value)
 
                 if self.rutas:
 
@@ -509,10 +532,8 @@ class App:
                 b += 1
 
 
-        print("\n======= RESUMEN PROCESO =======")
-        print(f" -> # Cantidad de Facturas: {len(dirs)}")
-        print(f" -> ✓ Facturas Procesadas: {a}")
-        print(f" -> - Facturas Sin Procesar: {b}")
+        # Resumen
+        self.verificar_proceso()
 
 
 
@@ -527,18 +548,16 @@ def menu():
 
 
     while True:
-        print("\n--- MENÚ DE OPERACIONES ---")
+        print("\n=== MENÚ DE OPERACIONES ===")
         print("0) SCRIPT ZERO: Ejectutar XML y JSON Scripts!")
         print("1) *** { SCRIPT FINAL } ***: Procesar Todos Los pacientes")
-        print("2) SCRIPT: Procesar por Documento")
-        print("3) SCRIPT: Mostrar Nombres Directorios")
-        print("4) SCRIPT: Mostrar Documentos Directorios")
-
-        print("\n=======================================")
+        print("2) SCRIPT: Procesar por FV-VALUE")
+        print("=======================================")
         print(" *** Otras funciones ***")
         print("5. Insertar en XML -> CODIGO_PRESTADOR")
         print("6. Insertar en XML -> FECHA InvoicePeriod")
-        print("7. ** Verificar Facts Procesadas **")
+        print("7. - Verificar Facts Procesadas")
+        print("8) *** Actualizar Excel Hash ***")
         print("X) Salir")
 
         opcion = input("\nSelecciona una opción (1-6): ")
@@ -550,13 +569,7 @@ def menu():
             app.script_final()
 
         elif opcion == "2":
-            app.script_documento()
-
-        elif opcion == "3":
-            app.search.mostrar_nombre_dirs(app.RUTA_FACTS)
-
-        elif opcion == "4":
-            app.search.mostrar_docs_dirs(app.RUTA_FACTS)
+            app.script_fvvalue()
 
         elif opcion == "5":
             app.bloque_cod_prestador()
@@ -572,6 +585,10 @@ def menu():
             if respuesta.lower() == "s":
                 print("¡Hasta luego!")
                 break
+
+        elif opcion == '8':
+            app.app_update_excel()
+
 
         else:
             print("Opción no válida. Por favor, selecciona una opción del 1 al 6.")
